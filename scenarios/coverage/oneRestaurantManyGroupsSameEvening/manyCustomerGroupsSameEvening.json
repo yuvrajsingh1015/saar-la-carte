@@ -1,0 +1,83 @@
+{
+  "customerGroups": [
+    {
+      "id": 3,
+      "type": "EVENT",
+      "size": 16,
+      "tableType": "SEPARATED",
+      "visitingTick": 3,
+      "restaurantTypes": ["ASIAN"],
+      "eventEvening": 4,
+      "favoriteDishes": {"ASIAN": "Beef Rice"},
+      "foodPreferences": [
+        { "size": 2, "excludedIngredients": ["beef"] },
+        { "size": 2, "preferredIngredients": ["chicken"] },
+        { "size": 2, "favoriteDishes": ["Cheese Egg"] }
+      ]
+    },
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 9,
+      "tableType": "COMMON",
+      "visitingTick": 1,
+      "visitingStart": 4,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        { "size": 1, "preferredIngredients": ["beef"] },
+        { "size": 1, "preferredIngredients": ["chicken"], "excludedIngredients": ["rice"] },
+        { "size": 1, "favoriteDishes": ["Cheese Egg"], "excludedIngredients": ["egg"] }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "CASUAL",
+      "size": 6,
+      "tableType": "COMMON",
+      "visitingTick": 5,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [4],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": []
+    },
+    {
+      "id": 2,
+      "type": "REGULAR",
+      "size": 4,
+      "tableType": "BAR",
+      "visitingTick": 2,
+      "visitingStart": 4,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        { "size": 1, "preferredIngredients": ["beef"] },
+        { "size": 2, "preferredIngredients": ["chicken"], "excludedIngredients": ["rice"] },
+        { "size": 1, "favoriteDishes": ["Cheese Egg"], "excludedIngredients": ["egg"] }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "CASUAL",
+      "size": 9,
+      "tableType": "BAR",
+      "visitingTick": 20,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [4],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": []
+    },
+    {
+      "id": 5,
+      "type": "CASUAL",
+      "size": 5,
+      "tableType": "BAR",
+      "visitingTick": 19,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [4],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": []
+    }
+  ],
+  "incidents": []
+}

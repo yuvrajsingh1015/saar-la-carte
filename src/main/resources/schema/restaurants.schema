@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "restaurants": {
+      "type": "array",
+      "items": {
+        "$ref": "restaurant.schema#/$defs/restaurant"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "required": ["restaurants"]
+}

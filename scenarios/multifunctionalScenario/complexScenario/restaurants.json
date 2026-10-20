@@ -1,0 +1,58 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Bistro European",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 0,
+      "event": true,
+      "positiveRatings": 2,
+      "negativeRatings": 0,
+      "recipes": [2],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 0,
+        "TOURNANT": 1,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 2,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 6 },
+        { "id": 2, "type": "COMMON", "size": 6 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sakura Asian",
+      "type": "ASIAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 1,
+      "event": false,
+      "positiveRatings": 5,
+      "negativeRatings": 1,
+      "recipes": [1],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 1,
+        "TOURNANT": 0,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 1,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 1,
+      "tables": [
+        { "id": 1, "type": "SEPARATED", "size": 4 },
+        { "id": 2, "type": "SEPARATED", "size": 4 }
+      ]
+    }
+  ]
+}

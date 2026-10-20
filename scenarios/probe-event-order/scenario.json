@@ -1,0 +1,32 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 4,
+      "tableType": "COMMON",
+      "visitingTick": 1,
+      "visitingStart": 4,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        { "size": 2, "excludedIngredients": ["apple", "nuts"] },
+        { "size": 2, "favoriteDishes": ["nutCake"] }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "EVENT",
+      "size": 8,
+      "tableType": "COMMON",
+      "visitingTick": 1,
+      "eventEvening": 4,
+      "restaurantTypes": ["EUROPEAN"],
+      "favoriteDishes": { "EUROPEAN": "appleTart" },
+      "foodPreferences": [
+        { "size": 8, "favoriteDishes": ["appleTart"] }
+      ]
+    }
+  ],
+  "incidents": []
+}

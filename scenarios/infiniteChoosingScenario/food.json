@@ -1,0 +1,62 @@
+{
+  "ingredients": [
+    { "name": "pork", "unit": "g", "packagingVolume": 1000, "bestBefore": 5 },
+    { "name": "noodles", "unit": "g", "packagingVolume": 500, "bestBefore": 10 },
+    { "name": "tofu", "unit": "g", "packagingVolume": 500, "bestBefore": 3 },
+    { "name": "rice", "unit": "g", "packagingVolume": 1000, "bestBefore": 10 },
+    { "name": "beef", "unit": "g", "packagingVolume": 1000, "bestBefore": 4 },
+    { "name": "potato", "unit": "X", "packagingVolume": 10, "bestBefore": 7 },
+    { "name": "tomato", "unit": "X", "packagingVolume": 10, "bestBefore": 5 },
+    { "name": "cheese", "unit": "g", "packagingVolume": 200, "bestBefore": 5 },
+    { "name": "chicken", "unit": "g", "packagingVolume": 1000, "bestBefore": 3 },
+    { "name": "bread", "unit": "X", "packagingVolume": 10, "bestBefore": 2 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "pork noodles",
+      "duration": 10,
+      "cookType": ["EXEC", "TOURNANT"],
+      "ingredients": [{ "name": "pork", "amount": 200 }, { "name": "noodles", "amount": 100 }],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 2,
+      "dishName": "tofu rice",
+      "duration": 10,
+      "cookType": ["EXEC", "VEGETABLE"],
+      "ingredients": [{ "name": "tofu", "amount": 150 }, { "name": "rice", "amount": 100 }]
+    },
+    {
+      "id": 3,
+      "dishName": "beef stew",
+      "duration": 20,
+      "cookType": ["EXEC", "ROAST"],
+      "ingredients": [{ "name": "beef", "amount": 250 }, { "name": "potato", "amount": 3 }],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 4,
+      "dishName": "tomato salad",
+      "duration": 5,
+      "cookType": ["EXEC", "SOUS"],
+      "ingredients": [{ "name": "tomato", "amount": 2 }, { "name": "cheese", "amount": 50 }]
+    },
+    {
+      "id": 5,
+      "dishName": "chicken burger",
+      "duration": 15,
+      "cookType": ["EXEC", "ROAST"],
+      "ingredients": [{ "name": "chicken", "amount": 200 }, { "name": "bread", "amount": 2 }],
+      "basicDishFor": "AMERICAN"
+    },
+    {
+      "id": 6,
+      "dishName": "jollof rice",
+      "duration": 25,
+      "cookType": ["EXEC", "SAUCE"],
+      "ingredients": [{ "name": "chicken", "amount": 150 }, { "name": "rice", "amount": 100 }, { "name": "tomato", "amount": 1 }],
+      "basicDishFor": "AFRICAN"
+    }
+  ]
+}

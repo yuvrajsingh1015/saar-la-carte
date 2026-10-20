@@ -1,0 +1,31 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "RegularMerge",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 14,
+      "deliveryDrivers": 0,
+      "event": false,
+      "positiveRatings": 0,
+      "negativeRatings": 0,
+      "recipes": [1],
+      "kitchenStaff": {
+        "EXEC": 0,
+        "SOUS": 0,
+        "TOURNANT": 0,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 0,
+        "PASTRY": 1
+      },
+      "waitstaff": 1,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 2 },
+        { "id": 2, "type": "COMMON", "size": 2 }
+      ]
+    }
+  ]
+}

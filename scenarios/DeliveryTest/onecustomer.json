@@ -1,0 +1,28 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 1,
+      "deliveryDistance": 20,
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "type": "UNAVAILABLE",
+      "evening": 2,
+      "ingredient": "rice",
+      "duration": 2
+    }
+  ]
+}

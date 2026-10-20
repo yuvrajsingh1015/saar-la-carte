@@ -1,0 +1,114 @@
+{
+  "ingredients": [
+    {
+      "name": "potato",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 2
+    },
+    {
+      "name": "beef",
+      "unit": "g",
+      "packagingVolume": 500,
+      "bestBefore": 2
+    },
+    {
+      "name": "onion",
+      "unit": "X",
+      "packagingVolume": 10,
+      "bestBefore": 2
+    },
+    {
+      "name": "bread",
+      "unit": "X",
+      "packagingVolume": 10,
+      "bestBefore": 2
+    },
+    {
+      "name": "pasta",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 5
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "potato soup",
+      "duration": 10,
+      "cookType": [
+        "EXEC",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 300
+        },
+        {
+          "name": "onion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "dishName": "beef stew",
+      "duration": 15,
+      "cookType": [
+        "EXEC",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "beef",
+          "amount": 200
+        },
+        {
+          "name": "onion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "dishName": "burger",
+      "duration": 10,
+      "basicDishFor": "AMERICAN",
+      "cookType": [
+        "EXEC",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "bread",
+          "amount": 2
+        },
+        {
+          "name": "beef",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "dishName": "beef pasta",
+      "duration": 10,
+      "basicDishFor": "EUROPEAN",
+      "cookType": [
+        "EXEC",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "beef",
+          "amount": 200
+        },
+        {
+          "name": "pasta",
+          "amount": 2
+        }
+      ]
+    }
+  ]
+}

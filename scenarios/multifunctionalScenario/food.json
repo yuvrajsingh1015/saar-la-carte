@@ -1,0 +1,121 @@
+{
+  "ingredients": [
+    {
+      "name": "chicken",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 1
+    },
+    {
+      "name": "beef",
+      "unit": "g",
+      "packagingVolume": 500,
+      "bestBefore": 2
+    },
+    {
+      "name": "potato",
+      "unit": "X",
+      "packagingVolume": 10,
+      "bestBefore": 5
+    },
+    {
+      "name": "water",
+      "unit": "mL",
+      "packagingVolume": 1000,
+      "bestBefore": 3
+    },
+    {
+      "name": "rice",
+      "unit": "g",
+      "packagingVolume": 750,
+      "bestBefore": 4
+    },
+    {
+      "name": "pasta",
+      "unit": "g",
+      "packagingVolume": 200,
+      "bestBefore": 1
+    }
+
+
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "chicken rice",
+      "duration": 20,
+      "cookType": [
+        "EXEC",
+        "SOUS",
+        "TOURNANT",
+        "ROAST"
+      ],
+      "ingredients": [
+        {
+          "name": "chicken",
+          "amount": 100
+        },
+        {
+          "name": "rice",
+          "amount": 150
+        }
+      ],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 2,
+      "dishName": "potato soup",
+      "duration": 21,
+      "cookType": [
+        "EXEC",
+        "VEGETABLE"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 4
+        },
+        {
+          "name": "water",
+          "amount": 900
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 3,
+      "dishName": "beef pasta",
+      "duration": 7,
+      "cookType": [
+        "EXEC", "SOUS", "TOURNANT", "SAUCE", "FISH", "ROAST", "VEGETABLE", "PASTRY"
+      ],
+      "ingredients": [
+        {
+          "name": "beef",
+          "amount": 75
+        },
+        {
+          "name": "pasta",
+          "amount": 100
+        }
+      ],
+      "basicDishFor": "AMERICAN"
+    },
+    {
+      "id": 0,
+      "dishName": "potato soup",
+      "duration": 10,
+      "cookType": [
+        "EXEC", "ROAST"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 6
+        }
+
+      ]
+    }
+
+  ]
+}

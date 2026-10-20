@@ -1,0 +1,23 @@
+{
+  "ingredients": [
+    { "name": "apple", "unit": "g", "packagingVolume": 1000, "bestBefore": 10 },
+    { "name": "nuts", "unit": "g", "packagingVolume": 1000, "bestBefore": 10 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "appleTart",
+      "duration": 10,
+      "cookType": ["SOUS"],
+      "ingredients": [ { "name": "apple", "amount": 10 } ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 2,
+      "dishName": "nutCake",
+      "duration": 10,
+      "cookType": ["SOUS"],
+      "ingredients": [ { "name": "nuts", "amount": 10 } ]
+    }
+  ]
+}

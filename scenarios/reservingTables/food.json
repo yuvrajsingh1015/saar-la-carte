@@ -1,0 +1,38 @@
+{
+  "ingredients": [
+    {
+      "name": "potato",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 3
+    },
+    {
+      "name": "onion",
+      "unit": "X",
+      "packagingVolume": 10,
+      "bestBefore": 3
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "potato soup",
+      "duration": 10,
+      "basicDishFor": "EUROPEAN",
+      "cookType": [
+        "EXEC",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 300
+        },
+        {
+          "name": "onion",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}

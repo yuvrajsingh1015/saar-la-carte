@@ -1,0 +1,122 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Dune Ledger",
+      "type": "AFRICAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 22,
+      "deliveryDrivers": 3,
+      "event": false,
+      "positiveRatings": 2,
+      "negativeRatings": 2,
+      "recipes": [
+        1,
+        2,
+        3
+      ],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 0,
+        "TOURNANT": 2,
+        "SAUCE": 1,
+        "FISH": 0,
+        "ROAST": 1,
+        "VEGETABLE": 1,
+        "PASTRY": 0
+      },
+      "waitstaff": 3,
+      "tables": [
+        {
+          "id": 1,
+          "type": "COMMON",
+          "size": 2
+        },
+        {
+          "id": 2,
+          "type": "COMMON",
+          "size": 4
+        },
+        {
+          "id": 3,
+          "type": "COMMON",
+          "size": 5
+        },
+        {
+          "id": 4,
+          "type": "BAR",
+          "size": 2
+        },
+        {
+          "id": 5,
+          "type": "SEPARATED",
+          "size": 10
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pier Nineteen",
+      "type": "AMERICAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 2,
+      "event": true,
+      "positiveRatings": 9,
+      "negativeRatings": 1,
+      "recipes": [
+        4,
+        5,
+        6
+      ],
+      "kitchenStaff": {
+        "EXEC": 0,
+        "SOUS": 1,
+        "TOURNANT": 2,
+        "SAUCE": 1,
+        "FISH": 1,
+        "ROAST": 0,
+        "VEGETABLE": 0,
+        "PASTRY": 1
+      },
+      "waitstaff": 4,
+      "tables": [
+        {
+          "id": 1,
+          "type": "COMMON",
+          "size": 2
+        },
+        {
+          "id": 2,
+          "type": "COMMON",
+          "size": 3
+        },
+        {
+          "id": 3,
+          "type": "COMMON",
+          "size": 6
+        },
+        {
+          "id": 4,
+          "type": "COMMON",
+          "size": 6
+        },
+        {
+          "id": 5,
+          "type": "BAR",
+          "size": 3
+        },
+        {
+          "id": 6,
+          "type": "SEPARATED",
+          "size": 5
+        },
+        {
+          "id": 7,
+          "type": "SEPARATED",
+          "size": 12
+        }
+      ]
+    }
+  ]
+}

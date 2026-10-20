@@ -1,0 +1,526 @@
+{
+  "ingredients": [
+    {
+      "name": "amberleaf",
+      "unit": "g",
+      "packagingVolume": 13,
+      "bestBefore": 1
+    },
+    {
+      "name": "brinevine",
+      "unit": "g",
+      "packagingVolume": 11,
+      "bestBefore": 1
+    },
+    {
+      "name": "cinderroot",
+      "unit": "g",
+      "packagingVolume": 17,
+      "bestBefore": 1
+    },
+    {
+      "name": "dewberry",
+      "unit": "X",
+      "packagingVolume": 7,
+      "bestBefore": 1
+    },
+    {
+      "name": "emberkale",
+      "unit": "g",
+      "packagingVolume": 19,
+      "bestBefore": 1
+    },
+    {
+      "name": "frostmint",
+      "unit": "mL",
+      "packagingVolume": 23,
+      "bestBefore": 1
+    },
+    {
+      "name": "glimmerfig",
+      "unit": "X",
+      "packagingVolume": 9,
+      "bestBefore": 1
+    },
+    {
+      "name": "hazelbark",
+      "unit": "g",
+      "packagingVolume": 29,
+      "bestBefore": 1
+    },
+    {
+      "name": "inkcap",
+      "unit": "g",
+      "packagingVolume": 31,
+      "bestBefore": 1
+    },
+    {
+      "name": "jadebean",
+      "unit": "g",
+      "packagingVolume": 37,
+      "bestBefore": 1
+    },
+    {
+      "name": "kelpwort",
+      "unit": "g",
+      "packagingVolume": 41,
+      "bestBefore": 1
+    },
+    {
+      "name": "lumenoat",
+      "unit": "g",
+      "packagingVolume": 43,
+      "bestBefore": 1
+    },
+    {
+      "name": "mossgrain",
+      "unit": "g",
+      "packagingVolume": 47,
+      "bestBefore": 1
+    },
+    {
+      "name": "nettlesalt",
+      "unit": "g",
+      "packagingVolume": 53,
+      "bestBefore": 4
+    },
+    {
+      "name": "oakmilk",
+      "unit": "mL",
+      "packagingVolume": 59,
+      "bestBefore": 3
+    },
+    {
+      "name": "pearlrice",
+      "unit": "g",
+      "packagingVolume": 61,
+      "bestBefore": 3
+    },
+    {
+      "name": "quillseed",
+      "unit": "g",
+      "packagingVolume": 67,
+      "bestBefore": 4
+    },
+    {
+      "name": "riverpepper",
+      "unit": "g",
+      "packagingVolume": 71,
+      "bestBefore": 1
+    },
+    {
+      "name": "sunmarrow",
+      "unit": "g",
+      "packagingVolume": 73,
+      "bestBefore": 1
+    },
+    {
+      "name": "thornmalt",
+      "unit": "mL",
+      "packagingVolume": 79,
+      "bestBefore": 1
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Amberleaf Porridge",
+      "duration": 10,
+      "cookType": [
+        "TOURNANT",
+        "SAUCE"
+      ],
+      "ingredients": [
+        {
+          "name": "amberleaf",
+          "amount": 21
+        },
+        {
+          "name": "lumenoat",
+          "amount": 14
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 2,
+      "dishName": "Brinevine Tart",
+      "duration": 25,
+      "cookType": [
+        "PASTRY",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "brinevine",
+          "amount": 18
+        },
+        {
+          "name": "mossgrain",
+          "amount": 12
+        },
+        {
+          "name": "oakmilk",
+          "amount": 40
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "dishName": "Cinderroot Spit",
+      "duration": 40,
+      "cookType": [
+        "ROAST",
+        "SOUS"
+      ],
+      "ingredients": [
+        {
+          "name": "cinderroot",
+          "amount": 33
+        },
+        {
+          "name": "hazelbark",
+          "amount": 9
+        },
+        {
+          "name": "nettlesalt",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "dishName": "Dewberry Gratin",
+      "duration": 15,
+      "cookType": [
+        "VEGETABLE",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "dewberry",
+          "amount": 3
+        },
+        {
+          "name": "frostmint",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "dishName": "Emberkale Stew",
+      "duration": 35,
+      "cookType": [
+        "SAUCE",
+        "SOUS"
+      ],
+      "ingredients": [
+        {
+          "name": "emberkale",
+          "amount": 28
+        },
+        {
+          "name": "pearlrice",
+          "amount": 20
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 6,
+      "dishName": "Frostmint Congee",
+      "duration": 20,
+      "cookType": [
+        "SAUCE",
+        "TOURNANT",
+        "EXEC"
+      ],
+      "ingredients": [
+        {
+          "name": "frostmint",
+          "amount": 31
+        },
+        {
+          "name": "pearlrice",
+          "amount": 17
+        }
+      ],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 7,
+      "dishName": "Glimmerfig Dumplings",
+      "duration": 10,
+      "cookType": [
+        "TOURNANT",
+        "FISH"
+      ],
+      "ingredients": [
+        {
+          "name": "glimmerfig",
+          "amount": 4
+        },
+        {
+          "name": "amberleaf",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "dishName": "Hazelbark Skewers",
+      "duration": 30,
+      "cookType": [
+        "EXEC",
+        "SAUCE"
+      ],
+      "ingredients": [
+        {
+          "name": "hazelbark",
+          "amount": 22
+        },
+        {
+          "name": "inkcap",
+          "amount": 13
+        },
+        {
+          "name": "thornmalt",
+          "amount": 19
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "dishName": "Inkcap Ribbons",
+      "duration": 15,
+      "cookType": [
+        "TOURNANT",
+        "FISH"
+      ],
+      "ingredients": [
+        {
+          "name": "inkcap",
+          "amount": 26
+        },
+        {
+          "name": "lumenoat",
+          "amount": 11
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "dishName": "Jadebean Broil",
+      "duration": 40,
+      "cookType": [
+        "EXEC",
+        "FISH"
+      ],
+      "ingredients": [
+        {
+          "name": "jadebean",
+          "amount": 37
+        },
+        {
+          "name": "riverpepper",
+          "amount": 6
+        }
+      ],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 11,
+      "dishName": "Kelpwort Mash",
+      "duration": 10,
+      "cookType": [
+        "TOURNANT",
+        "VEGETABLE"
+      ],
+      "ingredients": [
+        {
+          "name": "kelpwort",
+          "amount": 34
+        },
+        {
+          "name": "sunmarrow",
+          "amount": 8
+        }
+      ],
+      "basicDishFor": "AFRICAN"
+    },
+    {
+      "id": 12,
+      "dishName": "Lumenoat Tagine",
+      "duration": 30,
+      "cookType": [
+        "SAUCE",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "lumenoat",
+          "amount": 27
+        },
+        {
+          "name": "quillseed",
+          "amount": 7
+        },
+        {
+          "name": "oakmilk",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "dishName": "Mossgrain Skillet",
+      "duration": 20,
+      "cookType": [
+        "ROAST",
+        "SOUS"
+      ],
+      "ingredients": [
+        {
+          "name": "mossgrain",
+          "amount": 29
+        },
+        {
+          "name": "nettlesalt",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "dishName": "Nettlesalt Flatbread",
+      "duration": 35,
+      "cookType": [
+        "ROAST",
+        "VEGETABLE"
+      ],
+      "ingredients": [
+        {
+          "name": "nettlesalt",
+          "amount": 12
+        },
+        {
+          "name": "pearlrice",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "dishName": "Oakmilk Pudding",
+      "duration": 25,
+      "cookType": [
+        "SOUS",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "oakmilk",
+          "amount": 45
+        },
+        {
+          "name": "quillseed",
+          "amount": 9
+        }
+      ],
+      "basicDishFor": "AFRICAN"
+    },
+    {
+      "id": 16,
+      "dishName": "Pearlrice Griddle",
+      "duration": 10,
+      "cookType": [
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "pearlrice",
+          "amount": 30
+        },
+        {
+          "name": "riverpepper",
+          "amount": 5
+        }
+      ],
+      "basicDishFor": "AMERICAN"
+    },
+    {
+      "id": 17,
+      "dishName": "Quillseed Waffle",
+      "duration": 20,
+      "cookType": [
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "quillseed",
+          "amount": 15
+        },
+        {
+          "name": "thornmalt",
+          "amount": 21
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "dishName": "Riverpepper Melt",
+      "duration": 30,
+      "cookType": [
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "riverpepper",
+          "amount": 10
+        },
+        {
+          "name": "sunmarrow",
+          "amount": 19
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "dishName": "Sunmarrow Bake",
+      "duration": 40,
+      "cookType": [
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "sunmarrow",
+          "amount": 36
+        },
+        {
+          "name": "thornmalt",
+          "amount": 14
+        }
+      ],
+      "basicDishFor": "AMERICAN"
+    },
+    {
+      "id": 20,
+      "dishName": "Thornmalt Fritters",
+      "duration": 25,
+      "cookType": [
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "thornmalt",
+          "amount": 24
+        },
+        {
+          "name": "jadebean",
+          "amount": 18
+        }
+      ]
+    }
+  ]
+}

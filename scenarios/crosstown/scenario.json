@@ -1,0 +1,646 @@
+{
+  "customerGroups": [
+    {
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 13,
+      "visitingStart": 2,
+      "visitingPeriod": 2,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Anise Fritters",
+            "Kelp Pilaf"
+          ]
+        }
+      ],
+      "id": 1
+    },
+    {
+      "type": "REGULAR",
+      "size": 4,
+      "tableType": "COMMON",
+      "visitingTick": 3,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [],
+      "id": 2
+    },
+    {
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 6,
+      "visitingStart": 1,
+      "visitingPeriod": 2,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "verjuice"
+          ]
+        }
+      ],
+      "id": 3
+    },
+    {
+      "type": "REGULAR",
+      "size": 5,
+      "tableType": "COMMON",
+      "visitingTick": 3,
+      "visitingStart": 2,
+      "visitingPeriod": 2,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 5,
+          "preferredIngredients": [
+            "yam",
+            "kelp"
+          ]
+        }
+      ],
+      "id": 4
+    },
+    {
+      "type": "REGULAR",
+      "size": 3,
+      "tableType": "COMMON",
+      "visitingTick": 7,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 2,
+          "preferredIngredients": [
+            "verjuice",
+            "tamarind"
+          ]
+        }
+      ],
+      "id": 5
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "tableType": "SEPARATED",
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [],
+      "id": 6
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "SEPARATED",
+      "visitingTick": 5,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "okra",
+            "tamarind"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Kelp Pilaf",
+            "Anise Fritters"
+          ]
+        }
+      ],
+      "id": 7
+    },
+    {
+      "type": "CASUAL",
+      "size": 5,
+      "tableType": "COMMON",
+      "visitingTick": 10,
+      "restaurantTypes": [
+        "AFRICAN",
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        2,
+        4
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 5,
+          "excludedIngredients": [
+            "sumac"
+          ]
+        }
+      ],
+      "id": 8
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "tableType": "COMMON",
+      "visitingTick": 13,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        3
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [],
+      "id": 9
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "tableType": "COMMON",
+      "visitingTick": 10,
+      "restaurantTypes": [
+        "AFRICAN",
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        2,
+        3
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "sumac"
+          ]
+        }
+      ],
+      "id": 10
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "tableType": "COMMON",
+      "visitingTick": 10,
+      "restaurantTypes": [
+        "AFRICAN",
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        2
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "preferredIngredients": [
+            "verjuice",
+            "anise"
+          ]
+        }
+      ],
+      "id": 11
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "tableType": "COMMON",
+      "visitingTick": 10,
+      "restaurantTypes": [
+        "AFRICAN",
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 6,
+          "preferredIngredients": [
+            "verjuice"
+          ]
+        }
+      ],
+      "id": 12
+    },
+    {
+      "type": "CASUAL",
+      "size": 5,
+      "tableType": "COMMON",
+      "visitingTick": 6,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        2
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 5,
+          "favoriteDishes": [
+            "Sumac Skewers",
+            "Okra Tagine"
+          ]
+        }
+      ],
+      "id": 13
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "tableType": "COMMON",
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AFRICAN",
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        2,
+        3
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "sumac",
+            "verjuice"
+          ]
+        },
+        {
+          "size": 5,
+          "excludedIngredients": [
+            "okra"
+          ]
+        }
+      ],
+      "id": 14
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "COMMON",
+      "visitingTick": 13,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        2
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [],
+      "id": 15
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 16,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        3
+      ],
+      "deliveryDistance": 5,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "sumac"
+          ]
+        }
+      ],
+      "id": 16
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 12,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        2,
+        4
+      ],
+      "deliveryDistance": 5,
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "verjuice"
+          ]
+        }
+      ],
+      "id": 17
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 11,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "deliveryDistance": 15,
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Samphire Galette",
+            "Okra Tagine"
+          ]
+        }
+      ],
+      "id": 18
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 18,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        2,
+        3,
+        4
+      ],
+      "deliveryDistance": 7,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "id": 19
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "AFRICAN",
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        2,
+        4
+      ],
+      "deliveryDistance": 10,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Yam Pottage",
+            "Anise Fritters"
+          ]
+        },
+        {
+          "size": 3,
+          "preferredIngredients": [
+            "sumac"
+          ]
+        }
+      ],
+      "id": 20
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 11,
+      "restaurantTypes": [
+        "AFRICAN",
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        3,
+        4
+      ],
+      "deliveryDistance": 20,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "preferredIngredients": [
+            "yam",
+            "samphire"
+          ]
+        }
+      ],
+      "id": 21
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 18,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        3,
+        4
+      ],
+      "deliveryDistance": 5,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "id": 22
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 14,
+      "restaurantTypes": [
+        "AFRICAN",
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        4
+      ],
+      "deliveryDistance": 15,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "preferredIngredients": [
+            "kelp",
+            "yam"
+          ]
+        }
+      ],
+      "id": 23
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 9,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        2
+      ],
+      "deliveryDistance": 15,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [],
+      "id": 24
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 16,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        3
+      ],
+      "deliveryDistance": 20,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "preferredIngredients": [
+            "samphire"
+          ]
+        }
+      ],
+      "id": 25
+    },
+    {
+      "type": "CASUAL",
+      "size": 3,
+      "visitingTick": 15,
+      "restaurantTypes": [
+        "AFRICAN",
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        2,
+        4
+      ],
+      "deliveryDistance": 20,
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": [
+            "anise"
+          ]
+        },
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "yam",
+            "okra"
+          ]
+        }
+      ],
+      "id": 26
+    },
+    {
+      "type": "EVENT",
+      "size": 13,
+      "tableType": "SEPARATED",
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "eventEvening": 4,
+      "favoriteDishes": {
+        "AMERICAN": "Kelp Pilaf"
+      },
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Kelp Pilaf"
+          ]
+        },
+        {
+          "size": 2,
+          "preferredIngredients": [
+            "sumac"
+          ]
+        }
+      ],
+      "id": 27
+    }
+  ],
+  "incidents": [
+    {
+      "type": "UNAVAILABLE",
+      "evening": 2,
+      "ingredient": "samphire",
+      "duration": 2,
+      "id": 1
+    },
+    {
+      "type": "RECIPE",
+      "evening": 3,
+      "ingredient": "yam",
+      "adaptation": 15,
+      "id": 2
+    },
+    {
+      "type": "PACKAGING",
+      "evening": 2,
+      "ingredient": "kelp",
+      "packagingVolume": 60,
+      "id": 3
+    },
+    {
+      "type": "STAFF",
+      "evening": 3,
+      "restaurant": 1,
+      "number": 1,
+      "staffType": "DRIVER",
+      "id": 4
+    },
+    {
+      "type": "STAFF",
+      "evening": 3,
+      "restaurant": 2,
+      "number": -1,
+      "staffType": "COOK",
+      "cookType": "TOURNANT",
+      "id": 5
+    },
+    {
+      "type": "STAFF",
+      "evening": 4,
+      "restaurant": 1,
+      "number": 1,
+      "staffType": "WAITSTAFF",
+      "id": 6
+    }
+  ]
+}

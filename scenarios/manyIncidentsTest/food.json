@@ -1,0 +1,33 @@
+{
+  "ingredients": [
+    { "name": "beef", "unit": "g", "packagingVolume": 1000, "bestBefore": 5 },
+    { "name": "chicken", "unit": "g", "packagingVolume": 1000, "bestBefore": 5 },
+    { "name": "pasta", "unit": "g", "packagingVolume": 500, "bestBefore": 5 },
+    { "name": "potato", "unit": "X", "packagingVolume": 10, "bestBefore": 5 },
+    { "name": "tomato", "unit": "X", "packagingVolume": 10, "bestBefore": 5 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "tomato pasta",
+      "duration": 20,
+      "cookType": ["EXEC", "TOURNANT"],
+      "ingredients": [ { "name": "tomato", "amount": 2 }, { "name": "pasta", "amount": 100 } ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 2,
+      "dishName": "chicken pasta",
+      "duration": 25,
+      "cookType": ["EXEC", "ROAST"],
+      "ingredients": [ { "name": "chicken", "amount": 200 }, { "name": "pasta", "amount": 100 } ]
+    },
+    {
+      "id": 3,
+      "dishName": "beef stew",
+      "duration": 40,
+      "cookType": ["EXEC", "SOUS"],
+      "ingredients": [ { "name": "beef", "amount": 300 }, { "name": "potato", "amount": 4 } ]
+    }
+  ]
+}

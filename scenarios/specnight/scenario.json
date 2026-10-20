@@ -1,0 +1,2643 @@
+{
+  "customerGroups": [
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Riverpepper Melt"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 1
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 11,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 2
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        2
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 3
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        2
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Pearlrice Griddle"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 4
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 11,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        2
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 5
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 11,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        2
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Pearlrice Griddle"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 6
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        3
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 7
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        3
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Quillseed Waffle"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 8
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 11,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        3
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 9
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 11,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        3
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Quillseed Waffle"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 10
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 11
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Riverpepper Melt"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 12
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 11,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 13
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 11,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Riverpepper Melt"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 14
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Glimmerfig Dumplings"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 15
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 4,
+          "favoriteDishes": [
+            "Glimmerfig Dumplings"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 16
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "visitingTick": 12,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "tableType": "COMMON",
+      "id": 17
+    },
+    {
+      "type": "CASUAL",
+      "size": 8,
+      "visitingTick": 16,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "tableType": "COMMON",
+      "id": 18
+    },
+    {
+      "type": "CASUAL",
+      "size": 3,
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        2
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "favoriteDishes": [
+            "Glimmerfig Dumplings"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 19
+    },
+    {
+      "type": "CASUAL",
+      "size": 10,
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        2
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "tableType": "COMMON",
+      "id": 20
+    },
+    {
+      "type": "CASUAL",
+      "size": 3,
+      "visitingTick": 12,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        2
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "favoriteDishes": [
+            "Glimmerfig Dumplings"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 21
+    },
+    {
+      "type": "CASUAL",
+      "size": 9,
+      "visitingTick": 16,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        2
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "tableType": "COMMON",
+      "id": 22
+    },
+    {
+      "type": "CASUAL",
+      "size": 5,
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        3
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "tableType": "COMMON",
+      "id": 23
+    },
+    {
+      "type": "CASUAL",
+      "size": 7,
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        3
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "tableType": "COMMON",
+      "id": 24
+    },
+    {
+      "type": "CASUAL",
+      "size": 10,
+      "visitingTick": 12,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        3
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "tableType": "COMMON",
+      "id": 25
+    },
+    {
+      "type": "CASUAL",
+      "size": 3,
+      "visitingTick": 16,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        3
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "favoriteDishes": [
+            "Glimmerfig Dumplings"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 26
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 10,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        5
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Pearlrice Griddle"
+          ]
+        }
+      ],
+      "deliveryDistance": 5,
+      "id": 27
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 17,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        5
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "deliveryDistance": 5,
+      "id": 28
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 10,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        6
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "deliveryDistance": 5,
+      "id": 29
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 13,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        6
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 30
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 17,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        6
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Pearlrice Griddle"
+          ]
+        }
+      ],
+      "deliveryDistance": 5,
+      "id": 31
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 6,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        7
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 32
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 10,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        7
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Riverpepper Melt"
+          ]
+        }
+      ],
+      "deliveryDistance": 5,
+      "id": 33
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 15,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        7
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 34
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 19,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        7
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "deliveryDistance": 5,
+      "id": 35
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 10,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        8
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Pearlrice Griddle"
+          ]
+        }
+      ],
+      "deliveryDistance": 10,
+      "id": 36
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 13,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        8
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 37
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 17,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        8
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "deliveryDistance": 5,
+      "id": 38
+    },
+    {
+      "type": "REGULAR",
+      "size": 9,
+      "tableType": "BAR",
+      "visitingTick": 6,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [],
+      "id": 39
+    },
+    {
+      "type": "REGULAR",
+      "size": 4,
+      "tableType": "BAR",
+      "visitingTick": 8,
+      "visitingStart": 1,
+      "visitingPeriod": 2,
+      "restaurant": 1,
+      "foodPreferences": [],
+      "id": 40
+    },
+    {
+      "type": "REGULAR",
+      "size": 3,
+      "tableType": "BAR",
+      "visitingTick": 10,
+      "visitingStart": 2,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [],
+      "id": 41
+    },
+    {
+      "type": "REGULAR",
+      "size": 1,
+      "tableType": "COMMON",
+      "visitingTick": 7,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [],
+      "id": 42
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 21,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        2
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Amberleaf Porridge"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 43
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 20,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        3
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Dewberry Gratin"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 44
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 19,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        6
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Glimmerfig Dumplings"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 45
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 19,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        2
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Quillseed Waffle"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 46
+    },
+    {
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "BAR",
+      "visitingTick": 12,
+      "visitingStart": 3,
+      "visitingPeriod": 3,
+      "restaurant": 3,
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "lumenoat",
+            "mossgrain"
+          ]
+        },
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "jadebean",
+            "nettlesalt"
+          ]
+        }
+      ],
+      "id": 47
+    },
+    {
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 8,
+      "visitingStart": 3,
+      "visitingPeriod": 3,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Sunmarrow Bake",
+            "Emberkale Stew"
+          ]
+        }
+      ],
+      "id": 48
+    },
+    {
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 11,
+      "visitingStart": 5,
+      "visitingPeriod": 2,
+      "restaurant": 2,
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "sunmarrow"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Cinderroot Spit",
+            "Brinevine Tart"
+          ]
+        }
+      ],
+      "id": 49
+    },
+    {
+      "type": "REGULAR",
+      "size": 5,
+      "tableType": "COMMON",
+      "visitingTick": 4,
+      "visitingStart": 6,
+      "visitingPeriod": 2,
+      "restaurant": 2,
+      "foodPreferences": [
+        {
+          "size": 4,
+          "preferredIngredients": [
+            "dewberry",
+            "emberkale"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Glimmerfig Dumplings",
+            "Dewberry Gratin"
+          ]
+        }
+      ],
+      "id": 50
+    },
+    {
+      "type": "REGULAR",
+      "size": 6,
+      "tableType": "COMMON",
+      "visitingTick": 4,
+      "visitingStart": 2,
+      "visitingPeriod": 3,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 3,
+          "excludedIngredients": [
+            "frostmint"
+          ]
+        }
+      ],
+      "id": 51
+    },
+    {
+      "type": "REGULAR",
+      "size": 6,
+      "tableType": "COMMON",
+      "visitingTick": 5,
+      "visitingStart": 4,
+      "visitingPeriod": 1,
+      "restaurant": 2,
+      "foodPreferences": [
+        {
+          "size": 3,
+          "excludedIngredients": [
+            "brinevine"
+          ]
+        },
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Inkcap Ribbons",
+            "Lumenoat Tagine"
+          ]
+        }
+      ],
+      "id": 52
+    },
+    {
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "BAR",
+      "visitingTick": 4,
+      "visitingStart": 2,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Quillseed Waffle"
+          ]
+        }
+      ],
+      "id": 53
+    },
+    {
+      "type": "REGULAR",
+      "size": 5,
+      "tableType": "SEPARATED",
+      "visitingTick": 12,
+      "visitingStart": 1,
+      "visitingPeriod": 3,
+      "restaurant": 3,
+      "foodPreferences": [
+        {
+          "size": 5,
+          "favoriteDishes": [
+            "Jadebean Broil"
+          ]
+        }
+      ],
+      "id": 54
+    },
+    {
+      "type": "REGULAR",
+      "size": 5,
+      "tableType": "COMMON",
+      "visitingTick": 9,
+      "visitingStart": 3,
+      "visitingPeriod": 1,
+      "restaurant": 3,
+      "foodPreferences": [
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "nettlesalt"
+          ]
+        }
+      ],
+      "id": 55
+    },
+    {
+      "type": "CASUAL",
+      "size": 7,
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        8
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 6,
+          "favoriteDishes": [
+            "Quillseed Waffle",
+            "Pearlrice Griddle"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Jadebean Broil"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 56
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "visitingTick": 14,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Kelpwort Mash",
+            "Frostmint Congee"
+          ]
+        },
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Glimmerfig Dumplings",
+            "Jadebean Broil"
+          ]
+        },
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Cinderroot Spit",
+            "Inkcap Ribbons"
+          ]
+        }
+      ],
+      "tableType": "BAR",
+      "id": 57
+    },
+    {
+      "type": "CASUAL",
+      "size": 7,
+      "visitingTick": 18,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        3,
+        6,
+        7
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 5,
+          "excludedIngredients": [
+            "oakmilk"
+          ]
+        }
+      ],
+      "tableType": "BAR",
+      "id": 58
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 12,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        4,
+        5
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": [
+            "pearlrice"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 59
+    },
+    {
+      "type": "CASUAL",
+      "size": 5,
+      "visitingTick": 13,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        4,
+        6
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 5,
+          "favoriteDishes": [
+            "Pearlrice Griddle"
+          ]
+        }
+      ],
+      "tableType": "BAR",
+      "id": 60
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 13,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        4,
+        6
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "tableType": "SEPARATED",
+      "id": 61
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 7,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        7
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "tableType": "COMMON",
+      "id": 62
+    },
+    {
+      "type": "CASUAL",
+      "size": 7,
+      "visitingTick": 20,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        4,
+        5,
+        6,
+        8
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [],
+      "tableType": "COMMON",
+      "id": 63
+    },
+    {
+      "type": "CASUAL",
+      "size": 5,
+      "visitingTick": 17,
+      "restaurantTypes": [
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        4,
+        5
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "preferredIngredients": [
+            "quillseed"
+          ]
+        }
+      ],
+      "tableType": "SEPARATED",
+      "id": 64
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "visitingTick": 20,
+      "restaurantTypes": [
+        "AFRICAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "favoriteDishes": [
+            "Brinevine Tart",
+            "Mossgrain Skillet"
+          ]
+        },
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "pearlrice"
+          ]
+        },
+        {
+          "size": 2,
+          "preferredIngredients": [
+            "thornmalt"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 65
+    },
+    {
+      "type": "CASUAL",
+      "size": 3,
+      "visitingTick": 19,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        6
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Oakmilk Pudding",
+            "Dewberry Gratin"
+          ]
+        },
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "oakmilk"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 66
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "visitingTick": 11,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        8
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 4,
+          "favoriteDishes": [
+            "Hazelbark Skewers"
+          ]
+        },
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "quillseed"
+          ]
+        }
+      ],
+      "tableType": "SEPARATED",
+      "id": 67
+    },
+    {
+      "type": "CASUAL",
+      "size": 3,
+      "visitingTick": 6,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        5,
+        6,
+        7
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "favoriteDishes": [
+            "Oakmilk Pudding",
+            "Jadebean Broil"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 68
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 9,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        7
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [],
+      "tableType": "COMMON",
+      "id": 69
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "visitingTick": 16,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        4,
+        7
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [],
+      "tableType": "COMMON",
+      "id": 70
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 14,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        5,
+        7,
+        8
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "brinevine",
+            "riverpepper"
+          ]
+        },
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "glimmerfig"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 71
+    },
+    {
+      "type": "CASUAL",
+      "size": 7,
+      "visitingTick": 20,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        6
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "excludedIngredients": [
+            "pearlrice"
+          ]
+        },
+        {
+          "size": 4,
+          "favoriteDishes": [
+            "Sunmarrow Bake",
+            "Brinevine Tart"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 72
+    },
+    {
+      "type": "CASUAL",
+      "size": 5,
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        4,
+        6
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 4,
+          "excludedIngredients": [
+            "cinderroot"
+          ]
+        },
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "quillseed"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 73
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        2,
+        7
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Dewberry Gratin"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 74
+    },
+    {
+      "type": "CASUAL",
+      "size": 7,
+      "visitingTick": 6,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        1,
+        5,
+        6,
+        8
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 4,
+          "favoriteDishes": [
+            "Kelpwort Mash",
+            "Dewberry Gratin"
+          ]
+        }
+      ],
+      "tableType": "SEPARATED",
+      "id": 75
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 10,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        4,
+        5,
+        7
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 4,
+          "preferredIngredients": [
+            "sunmarrow"
+          ]
+        }
+      ],
+      "tableType": "BAR",
+      "id": 76
+    },
+    {
+      "type": "CASUAL",
+      "size": 7,
+      "visitingTick": 9,
+      "restaurantTypes": [
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        4,
+        7
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 5,
+          "favoriteDishes": [
+            "Jadebean Broil"
+          ]
+        },
+        {
+          "size": 2,
+          "preferredIngredients": [
+            "lumenoat",
+            "riverpepper"
+          ]
+        }
+      ],
+      "tableType": "BAR",
+      "id": 77
+    },
+    {
+      "type": "CASUAL",
+      "size": 5,
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        4,
+        7,
+        8
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 4,
+          "preferredIngredients": [
+            "thornmalt"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Sunmarrow Bake"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 78
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 7,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "excludedIngredients": [
+            "quillseed"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Frostmint Congee",
+            "Oakmilk Pudding"
+          ]
+        }
+      ],
+      "tableType": "BAR",
+      "id": 79
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 5,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Cinderroot Spit"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 80
+    },
+    {
+      "type": "CASUAL",
+      "size": 3,
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        7,
+        8
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "pearlrice"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 81
+    },
+    {
+      "type": "CASUAL",
+      "size": 7,
+      "visitingTick": 12,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        6
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "tableType": "COMMON",
+      "id": 82
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "visitingTick": 6,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        1,
+        3,
+        6
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "favoriteDishes": [
+            "Riverpepper Melt"
+          ]
+        },
+        {
+          "size": 2,
+          "excludedIngredients": [
+            "riverpepper"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Cinderroot Spit"
+          ]
+        }
+      ],
+      "tableType": "SEPARATED",
+      "id": 83
+    },
+    {
+      "type": "CASUAL",
+      "size": 7,
+      "visitingTick": 18,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        5,
+        6,
+        8
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 5,
+          "favoriteDishes": [
+            "Amberleaf Porridge",
+            "Frostmint Congee"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Cinderroot Spit"
+          ]
+        },
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "sunmarrow"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 84
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 5,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "riverpepper"
+          ]
+        },
+        {
+          "size": 2,
+          "excludedIngredients": [
+            "dewberry"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Oakmilk Pudding"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 85
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 9,
+      "restaurantTypes": [
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        7
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": [
+            "brinevine"
+          ]
+        }
+      ],
+      "tableType": "SEPARATED",
+      "id": 86
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "visitingTick": 12,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        7
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "tableType": "COMMON",
+      "id": 87
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 6,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        6
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 4,
+          "favoriteDishes": [
+            "Emberkale Stew"
+          ]
+        }
+      ],
+      "tableType": "COMMON",
+      "id": 88
+    },
+    {
+      "type": "CASUAL",
+      "size": 5,
+      "visitingTick": 21,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        4,
+        6,
+        7
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 4,
+          "preferredIngredients": [
+            "hazelbark",
+            "inkcap"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Emberkale Stew"
+          ]
+        }
+      ],
+      "tableType": "BAR",
+      "id": 89
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 17,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        6,
+        8
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "dewberry"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Emberkale Stew"
+          ]
+        }
+      ],
+      "deliveryDistance": 5,
+      "id": 90
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 16,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [],
+      "deliveryDistance": 20,
+      "id": 91
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 6,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        5,
+        7,
+        8
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Amberleaf Porridge",
+            "Riverpepper Melt"
+          ]
+        }
+      ],
+      "deliveryDistance": 5,
+      "id": 92
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 9,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        6,
+        7
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "deliveryDistance": 15,
+      "id": 93
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 15,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        8
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [],
+      "deliveryDistance": 12,
+      "id": 94
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 16,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        6,
+        8
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Amberleaf Porridge"
+          ]
+        }
+      ],
+      "deliveryDistance": 12,
+      "id": 95
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 16,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Frostmint Congee",
+            "Brinevine Tart"
+          ]
+        }
+      ],
+      "deliveryDistance": 3,
+      "id": 96
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 16,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "amberleaf"
+          ]
+        }
+      ],
+      "deliveryDistance": 12,
+      "id": 97
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 12,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        4,
+        8
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [],
+      "deliveryDistance": 7,
+      "id": 98
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 11,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        5,
+        6
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "riverpepper"
+          ]
+        }
+      ],
+      "deliveryDistance": 3,
+      "id": 99
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 16,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        5,
+        6,
+        8
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "dewberry",
+            "amberleaf"
+          ]
+        },
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "amberleaf"
+          ]
+        }
+      ],
+      "deliveryDistance": 5,
+      "id": 100
+    },
+    {
+      "type": "CASUAL",
+      "size": 3,
+      "visitingTick": 19,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        5,
+        7
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "mossgrain"
+          ]
+        },
+        {
+          "size": 2,
+          "excludedIngredients": [
+            "hazelbark"
+          ]
+        }
+      ],
+      "deliveryDistance": 10,
+      "id": 101
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 14,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "excludedIngredients": [
+            "lumenoat"
+          ]
+        }
+      ],
+      "deliveryDistance": 3,
+      "id": 102
+    },
+    {
+      "type": "CASUAL",
+      "size": 3,
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        6,
+        8
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": [
+            "brinevine"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Oakmilk Pudding"
+          ]
+        }
+      ],
+      "deliveryDistance": 10,
+      "id": 103
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 13,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "favoriteDishes": [
+            "Hazelbark Skewers",
+            "Lumenoat Tagine"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Jadebean Broil"
+          ]
+        }
+      ],
+      "deliveryDistance": 3,
+      "id": 104
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 17,
+      "restaurantTypes": [
+        "AFRICAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        5,
+        6,
+        8
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "kelpwort"
+          ]
+        }
+      ],
+      "deliveryDistance": 10,
+      "id": 105
+    },
+    {
+      "type": "EVENT",
+      "size": 20,
+      "tableType": "SEPARATED",
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "eventEvening": 4,
+      "favoriteDishes": {
+        "AFRICAN": "Kelpwort Mash"
+      },
+      "foodPreferences": [],
+      "id": 106
+    },
+    {
+      "type": "EVENT",
+      "size": 16,
+      "tableType": "SEPARATED",
+      "visitingTick": 5,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "eventEvening": 5,
+      "favoriteDishes": {
+        "EUROPEAN": "Amberleaf Porridge"
+      },
+      "foodPreferences": [
+        {
+          "size": 5,
+          "favoriteDishes": [
+            "Amberleaf Porridge",
+            "Pearlrice Griddle"
+          ]
+        },
+        {
+          "size": 3,
+          "preferredIngredients": [
+            "pearlrice"
+          ]
+        }
+      ],
+      "id": 107
+    },
+    {
+      "type": "EVENT",
+      "size": 13,
+      "tableType": "SEPARATED",
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "eventEvening": 6,
+      "favoriteDishes": {
+        "AFRICAN": "Kelpwort Mash"
+      },
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Emberkale Stew",
+            "Mossgrain Skillet"
+          ]
+        },
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Amberleaf Porridge",
+            "Inkcap Ribbons"
+          ]
+        },
+        {
+          "size": 4,
+          "favoriteDishes": [
+            "Nettlesalt Flatbread"
+          ]
+        }
+      ],
+      "id": 108
+    },
+    {
+      "type": "EVENT",
+      "size": 26,
+      "tableType": "SEPARATED",
+      "visitingTick": 5,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "eventEvening": 7,
+      "favoriteDishes": {
+        "EUROPEAN": "Amberleaf Porridge"
+      },
+      "foodPreferences": [
+        {
+          "size": 7,
+          "favoriteDishes": [
+            "Nettlesalt Flatbread"
+          ]
+        },
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "brinevine"
+          ]
+        }
+      ],
+      "id": 109
+    },
+    {
+      "type": "EVENT",
+      "size": 22,
+      "tableType": "SEPARATED",
+      "visitingTick": 7,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "eventEvening": 8,
+      "favoriteDishes": {
+        "AFRICAN": "Kelpwort Mash"
+      },
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Cinderroot Spit"
+          ]
+        }
+      ],
+      "id": 110
+    },
+    {
+      "type": "EVENT",
+      "size": 24,
+      "tableType": "SEPARATED",
+      "visitingTick": 3,
+      "restaurantTypes": [
+        "AFRICAN"
+      ],
+      "eventEvening": 5,
+      "favoriteDishes": {
+        "AFRICAN": "Kelpwort Mash"
+      },
+      "foodPreferences": [
+        {
+          "size": 7,
+          "excludedIngredients": [
+            "brinevine"
+          ]
+        }
+      ],
+      "id": 111
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "type": "PACKAGING",
+      "evening": 2,
+      "ingredient": "amberleaf",
+      "packagingVolume": 15
+    },
+    {
+      "id": 2,
+      "type": "RECIPE",
+      "evening": 3,
+      "ingredient": "brinevine",
+      "adaptation": -27
+    },
+    {
+      "id": 3,
+      "type": "UNAVAILABLE",
+      "evening": 3,
+      "ingredient": "glimmerfig",
+      "duration": 2
+    },
+    {
+      "id": 4,
+      "type": "STAFF",
+      "evening": 4,
+      "restaurant": 2,
+      "number": 1,
+      "staffType": "DRIVER"
+    },
+    {
+      "id": 5,
+      "type": "STAFF",
+      "evening": 4,
+      "restaurant": 1,
+      "number": -1,
+      "staffType": "COOK",
+      "cookType": "TOURNANT"
+    },
+    {
+      "id": 6,
+      "type": "RECIPE",
+      "evening": 5,
+      "ingredient": "thornmalt",
+      "adaptation": 33
+    },
+    {
+      "id": 7,
+      "type": "STAFF",
+      "evening": 5,
+      "restaurant": 3,
+      "number": 1,
+      "staffType": "WAITSTAFF"
+    },
+    {
+      "id": 8,
+      "type": "PACKAGING",
+      "evening": 6,
+      "ingredient": "kelpwort",
+      "packagingVolume": 43
+    },
+    {
+      "id": 9,
+      "type": "STAFF",
+      "evening": 6,
+      "restaurant": 4,
+      "number": -1,
+      "staffType": "WAITSTAFF"
+    },
+    {
+      "id": 10,
+      "type": "UNAVAILABLE",
+      "evening": 7,
+      "ingredient": "pearlrice",
+      "duration": 1
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "$defs": {
+    "restaurant": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "enum": ["EUROPEAN", "ASIAN", "AFRICAN", "AMERICAN"]
+        },
+        "openingTickStart": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 24
+        },
+        "openingTickEnd": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 24
+        },
+        "deliveryDrivers": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "event": {
+          "type": "boolean"
+        },
+        "positiveRatings": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "negativeRatings": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "recipes": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "uniqueItems": true
+        },
+        "kitchenStaff": {
+          "$ref": "#/$defs/kitchenStaff"
+        },
+        "waitstaff": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "tables": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/table"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "type",
+        "openingTickStart",
+        "openingTickEnd",
+        "deliveryDrivers",
+        "event",
+        "positiveRatings",
+        "negativeRatings",
+        "recipes",
+        "kitchenStaff",
+        "waitstaff",
+        "tables"
+      ]
+    },
+    "kitchenStaff": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "EXEC": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "SOUS": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "TOURNANT": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "SAUCE": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "FISH": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ROAST": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "VEGETABLE": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "PASTRY": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "EXEC",
+        "SOUS",
+        "TOURNANT",
+        "SAUCE",
+        "FISH",
+        "ROAST",
+        "VEGETABLE",
+        "PASTRY"
+      ]
+    },
+    "table": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "type": {
+          "type": "string",
+          "enum": ["COMMON", "BAR", "SEPARATED"]
+        },
+        "size": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 30
+        }
+      },
+      "required": ["id", "type", "size"]
+    }
+  }
+}

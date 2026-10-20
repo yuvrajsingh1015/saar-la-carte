@@ -1,0 +1,204 @@
+{
+  "ingredients": [
+    {
+      "name": "juniper",
+      "unit": "g",
+      "packagingVolume": 40,
+      "bestBefore": 3
+    },
+    {
+      "name": "einkorn",
+      "unit": "g",
+      "packagingVolume": 60,
+      "bestBefore": 2
+    },
+    {
+      "name": "clove",
+      "unit": "g",
+      "packagingVolume": 25,
+      "bestBefore": 4
+    },
+    {
+      "name": "teff",
+      "unit": "g",
+      "packagingVolume": 200,
+      "bestBefore": 3
+    },
+    {
+      "name": "amaranth",
+      "unit": "g",
+      "packagingVolume": 300,
+      "bestBefore": 2
+    },
+    {
+      "name": "rapeseed",
+      "unit": "mL",
+      "packagingVolume": 250,
+      "bestBefore": 4
+    },
+    {
+      "name": "medlar",
+      "unit": "X",
+      "packagingVolume": 12,
+      "bestBefore": 1
+    },
+    {
+      "name": "mace",
+      "unit": "g",
+      "packagingVolume": 30,
+      "bestBefore": 3
+    },
+    {
+      "name": "chard",
+      "unit": "g",
+      "packagingVolume": 150,
+      "bestBefore": 1
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Medlar Porridge",
+      "duration": 10,
+      "cookType": [
+        "TOURNANT",
+        "SAUCE"
+      ],
+      "ingredients": [
+        {
+          "name": "amaranth",
+          "amount": 30
+        },
+        {
+          "name": "medlar",
+          "amount": 2
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 2,
+      "dishName": "Chard Gratin",
+      "duration": 30,
+      "cookType": [
+        "VEGETABLE",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "chard",
+          "amount": 40
+        },
+        {
+          "name": "rapeseed",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "dishName": "Clove Hotpot",
+      "duration": 40,
+      "cookType": [
+        "ROAST",
+        "SOUS"
+      ],
+      "ingredients": [
+        {
+          "name": "clove",
+          "amount": 5
+        },
+        {
+          "name": "teff",
+          "amount": 50
+        },
+        {
+          "name": "rapeseed",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "dishName": "Einkorn Compote",
+      "duration": 20,
+      "cookType": [
+        "PASTRY",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "einkorn",
+          "amount": 25
+        },
+        {
+          "name": "amaranth",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "dishName": "Teff Congee",
+      "duration": 20,
+      "cookType": [
+        "SAUCE",
+        "TOURNANT",
+        "EXEC"
+      ],
+      "ingredients": [
+        {
+          "name": "teff",
+          "amount": 60
+        },
+        {
+          "name": "juniper",
+          "amount": 2
+        }
+      ],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 6,
+      "dishName": "Mace Dumplings",
+      "duration": 10,
+      "cookType": [
+        "TOURNANT",
+        "FISH"
+      ],
+      "ingredients": [
+        {
+          "name": "amaranth",
+          "amount": 25
+        },
+        {
+          "name": "mace",
+          "amount": 3
+        },
+        {
+          "name": "rapeseed",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "dishName": "Juniper Bisque",
+      "duration": 30,
+      "cookType": [
+        "SAUCE",
+        "EXEC"
+      ],
+      "ingredients": [
+        {
+          "name": "juniper",
+          "amount": 3
+        },
+        {
+          "name": "rapeseed",
+          "amount": 30
+        }
+      ]
+    }
+  ]
+}

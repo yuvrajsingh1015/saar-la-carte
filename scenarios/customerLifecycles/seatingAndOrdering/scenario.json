@@ -1,0 +1,117 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 4,
+      "tableType": "COMMON",
+      "visitingTick": 1,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": []
+    },
+    {
+      "id": 2,
+      "type": "REGULAR",
+      "size": 6,
+      "tableType": "COMMON",
+      "visitingTick": 1,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 2,
+      "foodPreferences": []
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 3,
+      "tableType": "COMMON",
+      "visitingTick": 1,
+      "visitingEvenings": [1],
+      "restaurantTypes": ["EUROPEAN", "ASIAN"],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "favoriteDishes": [
+            "potatoSoup"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "CASUAL",
+      "size": 5,
+      "tableType": "COMMON",
+      "visitingTick": 2,
+      "visitingEvenings": [1],
+      "restaurantTypes": ["ASIAN", "AFRICAN"],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "preferredIngredients": ["chicken"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "BAR",
+      "visitingTick": 2,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 3,
+      "foodPreferences": []
+    },
+    {
+      "id": 6,
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "COMMON",
+      "visitingTick": 2,
+      "visitingEvenings": [1],
+      "restaurantTypes": ["EUROPEAN", "AFRICAN"],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 4,
+          "favoriteDishes": [
+            "beefPasta"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "CASUAL",
+      "size": 8,
+      "tableType": "COMMON",
+      "visitingTick": 3,
+      "visitingEvenings": [1],
+      "restaurantTypes": ["EUROPEAN", "ASIAN", "AFRICAN"],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 4,
+          "excludedIngredients": ["beef"]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "BAR",
+      "visitingTick": 3,
+      "visitingEvenings": [1],
+      "restaurantTypes": ["ASIAN", "AFRICAN"],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": []
+    }
+  ],
+  "incidents": []
+}

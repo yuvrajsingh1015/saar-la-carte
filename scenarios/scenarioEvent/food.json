@@ -1,0 +1,77 @@
+{
+  "ingredients": [
+    {
+      "name": "potato",
+      "unit": "g",
+      "packagingVolume": 5000,
+      "bestBefore": 2
+    },
+    {
+      "name": "egg",
+      "unit": "g",
+      "packagingVolume": 4,
+      "bestBefore": 2
+    },
+    {
+      "name": "cheese",
+      "unit": "g",
+      "packagingVolume": 100,
+      "bestBefore": 2
+    },
+    {
+      "name": "coffee",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 2
+    }
+  ],
+  "recipes": [
+    {
+      "id": 8,
+      "dishName": "coffee cup",
+      "duration": 25,
+      "cookType": [
+        "EXEC",
+        "SOUS"
+      ],
+      "ingredients": [
+        {
+          "name": "coffee",
+          "amount": 101
+        }
+      ],
+      "basicDishFor": "AMERICAN"
+    },
+    {
+      "id": 9,
+      "dishName": "cake",
+      "duration": 30,
+      "cookType": [
+        "EXEC",
+        "SOUS"
+      ],
+      "ingredients": [
+        {
+          "name": "egg",
+          "amount": 2
+        }
+      ],
+      "basicDishFor": "AMERICAN"
+    },
+    {
+      "id": 10,
+      "dishName": "fries",
+      "duration": 25,
+      "cookType": [
+        "EXEC",
+        "SOUS"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 1000
+        }
+      ]
+    }
+  ]
+}

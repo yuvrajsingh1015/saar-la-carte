@@ -1,0 +1,59 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 3,
+      "tableType": "COMMON",
+      "restaurantTypes": [
+        "EUROPEAN",
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "visitingTick": 1,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 3,
+          "excludedIngredients": [
+            "beef"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "restaurantTypes": [
+        "EUROPEAN",
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "visitingTick": 1,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 3,
+      "tableType": "COMMON",
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "visitingTick": 1,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    }
+  ],
+  "incidents": []
+}

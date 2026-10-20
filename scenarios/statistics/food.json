@@ -1,0 +1,43 @@
+{
+  "ingredients": [
+    { "name": "Potato", "unit": "g", "packagingVolume": 1000, "bestBefore": 10 },
+    { "name": "Onion", "unit": "X", "packagingVolume": 50, "bestBefore": 10 },
+    { "name": "Chicken", "unit": "g", "packagingVolume": 1000, "bestBefore": 10 },
+    { "name": "Rice", "unit": "g", "packagingVolume": 1500, "bestBefore": 10 },
+    { "name": "Beef", "unit": "g", "packagingVolume": 1000, "bestBefore": 10 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "potatoSoup",
+      "duration": 8,
+      "cookType": ["EXEC", "SOUS"],
+      "ingredients": [
+        { "name": "Potato", "amount": 200 },
+        { "name": "Onion", "amount": 4 }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 2,
+      "dishName": "chickenRice",
+      "duration": 20,
+      "cookType": ["EXEC", "SOUS"],
+      "ingredients": [
+        { "name": "Chicken", "amount": 150 },
+        { "name": "Rice", "amount": 100 }
+      ],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 3,
+      "dishName": "beefSteak",
+      "duration": 15,
+      "cookType": ["EXEC", "SOUS"],
+      "ingredients": [
+        { "name": "Beef", "amount": 200 }
+      ],
+      "basicDishFor": "AMERICAN"
+    }
+  ]
+}

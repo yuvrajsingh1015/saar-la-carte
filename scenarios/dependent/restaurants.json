@@ -1,0 +1,35 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "NewCook",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 22,
+      "deliveryDrivers": 1,
+      "event": true,
+      "positiveRatings": 0,
+      "negativeRatings": 0,
+      "recipes": [
+      ],
+      "kitchenStaff": {
+        "EXEC": 0,
+        "SOUS": 1,
+        "TOURNANT": 0,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 1,
+      "tables": [
+        {
+          "id": 1,
+          "type": "BAR",
+          "size": 10
+        }
+      ]
+    }
+  ]
+}

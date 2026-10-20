@@ -1,0 +1,25 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Delivery Pros",
+      "type": "ASIAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 3,
+      "event": false,
+      "positiveRatings": 0,
+      "negativeRatings": 0,
+      "recipes": [1, 2, 3],
+      "kitchenStaff": {
+        "EXEC": 1, "SOUS": 1, "TOURNANT": 0, "SAUCE": 0,
+        "FISH": 0, "ROAST": 0, "VEGETABLE": 1, "PASTRY": 0
+      },
+      "waitstaff": 2,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 10 },
+        { "id": 2, "type": "COMMON", "size": 5 }
+      ]
+    }
+  ]
+}

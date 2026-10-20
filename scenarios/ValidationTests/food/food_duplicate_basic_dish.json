@@ -1,0 +1,44 @@
+{
+  "ingredients": [
+    {
+      "name": "rice",
+      "unit": "g",
+      "packagingVolume": 5000,
+      "bestBefore": 2
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Rice Bowl",
+      "duration": 10,
+      "cookType": [
+        "EXEC",
+        "SOUS"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "amount": 150
+        }
+      ],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 2,
+      "dishName": "Rice Bowl",
+      "duration": 5,
+      "cookType": [
+        "EXEC",
+        "SOUS"
+      ],
+      "ingredients": [
+        {
+          "name": "rice",
+          "amount": 50
+        }
+      ],
+      "basicDishFor": "ASIAN"
+    }
+  ]
+}

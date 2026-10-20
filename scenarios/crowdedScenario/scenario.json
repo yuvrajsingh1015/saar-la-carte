@@ -1,0 +1,195 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 4,
+      "tableType": "COMMON",
+      "visitingTick": 2,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": ["tomato"],
+          "preferredIngredients": ["garlic", "oil"]
+        },
+        {
+          "size": 1,
+          "excludedIngredients": ["fish", "beef"],
+          "preferredIngredients": ["apple", "flour"],
+          "favoriteDishes": ["apple pie"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 3,
+      "tableType": "COMMON",
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 2,
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "preferredIngredients": ["fish", "water"],
+          "favoriteDishes": ["baked fish"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "REGULAR",
+      "size": 3,
+      "tableType": "COMMON",
+      "visitingTick": 2,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 3,
+          "excludedIngredients": ["onion", "apple"],
+          "preferredIngredients": ["beef", "pasta", "tomato"],
+          "favoriteDishes": ["beef pasta", "tomato pasta"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "COMMON",
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 2,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": ["garlic"],
+          "preferredIngredients": ["apple"]
+        },
+        {
+          "size": 2,
+          "excludedIngredients": ["apple", "flour"],
+          "preferredIngredients": ["tomato", "pasta"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 1,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": ["beef", "fish"],
+          "preferredIngredients": ["tomato", "garlic"],
+          "favoriteDishes": ["tomato pasta"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 1,
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "excludedIngredients": ["garlic", "onion", "beef", "fish"],
+          "preferredIngredients": ["tomato", "pasta"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "CASUAL",
+      "size": 3,
+      "tableType": "COMMON",
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 1,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "preferredIngredients": ["garlic", "onion", "oil"],
+          "favoriteDishes": ["beef steak"]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 1,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "excludedIngredients": ["tomato", "water"],
+          "favoriteDishes": ["beef steak"]
+        },
+        {
+          "size": 1,
+          "preferredIngredients": ["apple"],
+          "favoriteDishes": ["apple pie"]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 2,
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": ["pasta"],
+          "preferredIngredients": ["fish"],
+          "favoriteDishes": ["baked fish"]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "CASUAL",
+      "size": 3,
+      "tableType": "COMMON",
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 2,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "excludedIngredients": ["fish", "apple"],
+          "preferredIngredients": ["beef", "pasta"],
+          "favoriteDishes": ["beef pasta"]
+        }
+      ]
+    }
+  ],
+  "incidents": []
+}

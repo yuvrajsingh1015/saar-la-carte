@@ -1,0 +1,181 @@
+{
+  "$defs": {
+    "customerGroup": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "type": {
+          "type": "string",
+          "enum": ["REGULAR", "CASUAL", "EVENT"]
+        },
+        "size": {
+          "type": "integer"
+        },
+        "tableType": {
+          "type": "string",
+          "enum": ["COMMON", "BAR", "SEPARATED"],
+          "default": "COMMON"
+        },
+        "visitingTick": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 21
+        },
+        "foodPreferences": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/foodPreference"
+          }
+        },
+        "visitingStart": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "visitingPeriod": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "restaurant": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "restaurantTypes": {
+          "type": "array",
+          "items": {
+            "$ref": "restaurant.schema#/$defs/restaurant/properties/type"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "eventEvening": {
+          "type": "integer",
+          "minimum": 4
+        },
+        "favoriteDishes": {
+          "type": "object",
+          "propertyNames": {
+            "$ref": "restaurant.schema#/$defs/restaurant/properties/type"
+          },
+          "additionalProperties": {
+            "type": "string",
+            "items": { "type": "string" },
+            "minLength": 1
+          },
+          "minProperties": 1
+        },
+        "visitingEvenings": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "deliveryDistance": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ratingLikelihood": {
+          "type": "string",
+          "enum": ["NEVER", "SOME", "ALWAYS"]
+        }
+      },
+      "required": ["id", "type", "size", "visitingTick", "foodPreferences"],
+      "allOf": [
+        {
+          "if": {
+            "properties": { "type": { "const": "REGULAR" } }
+          },
+          "then": {
+            "properties": {
+              "size": { "minimum": 1, "maximum": 10 },
+              "restaurantTypes": false,
+              "eventEvening": false,
+              "favoriteDishes": false,
+              "visitingEvenings": false,
+              "deliveryDistance": false,
+              "ratingLikelihood": false
+            },
+            "required": ["visitingStart", "visitingPeriod", "restaurant"]
+          }
+        },
+        {
+          "if": {
+            "properties": { "type": { "const": "CASUAL" } }
+          },
+          "then": {
+            "properties": {
+              "size": { "minimum": 1, "maximum": 10 },
+              "visitingStart": false,
+              "visitingPeriod": false,
+              "restaurant": false,
+              "eventEvening": false,
+              "favoriteDishes": false
+            },
+            "required": ["restaurantTypes", "visitingEvenings", "ratingLikelihood"],
+            "not": {
+              "required": ["tableType", "deliveryDistance"]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "type": { "const": "EVENT" } }
+          },
+          "then": {
+            "properties": {
+              "size": { "minimum": 4, "maximum": 100 },
+              "visitingStart": false,
+              "visitingPeriod": false,
+              "restaurant": false,
+              "visitingEvenings": false,
+              "deliveryDistance": false,
+              "ratingLikelihood": false
+            },
+            "required": ["restaurantTypes", "eventEvening", "favoriteDishes"]
+          }
+        }
+      ]
+    },
+    "foodPreference": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "size": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "excludedIngredients": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "preferredIngredients": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "favoriteDishes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": ["size"],
+      "anyOf": [
+        { "required": ["excludedIngredients"] },
+        { "required": ["preferredIngredients"] },
+        { "required": ["favoriteDishes"] }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 8,
+      "tableType": "COMMON",
+      "visitingTick": 5,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        { "size": 8, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    }
+  ],
+  "incidents": []
+}

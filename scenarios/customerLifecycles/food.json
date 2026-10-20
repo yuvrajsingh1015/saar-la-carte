@@ -1,0 +1,19 @@
+{
+  "ingredients": [
+    { "name": "Potato", "unit": "g", "packagingVolume": 1000, "bestBefore": 10 },
+    { "name": "Onion", "unit": "X", "packagingVolume": 50, "bestBefore": 10 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "potatoSoup",
+      "duration": 8,
+      "cookType": ["SOUS"],
+      "ingredients": [
+        { "name": "Potato", "amount": 200 },
+        { "name": "Onion", "amount": 4 }
+      ],
+      "basicDishFor": "EUROPEAN"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "COMMON",
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 2,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 9,
+      "tableType": "COMMON",
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 2,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    }
+  ],
+  "incidents": [
+    { "id": 1, "type": "UNAVAILABLE", "evening": 1, "ingredient": "chicken", "duration": 3 },
+    { "id": 2, "type": "UNAVAILABLE", "evening": 1, "ingredient": "beef", "duration": 2 },
+    { "id": 3, "type": "UNAVAILABLE", "evening": 1, "ingredient": "potato", "duration": 1 },
+    { "id": 4, "type": "STAFF", "evening": 1, "restaurant": 1, "number": -1, "staffType": "WAITSTAFF" },
+    { "id": 5, "type": "STAFF", "evening": 1, "restaurant": 1, "number": -1, "staffType": "COOK", "cookType": "ROAST" },
+    { "id": 6, "type": "STAFF", "evening": 1, "restaurant": 1, "number": 2, "staffType": "COOK", "cookType": "SOUS" },
+    { "id": 7, "type": "STAFF", "evening": 1, "restaurant": 1, "number": -2, "staffType": "DRIVER" },
+    { "id": 8, "type": "PACKAGING", "evening": 1, "ingredient": "pasta", "packagingVolume": 50 },
+    { "id": 9, "type": "PACKAGING", "evening": 1, "ingredient": "tomato", "packagingVolume": 100 },
+    { "id": 10, "type": "PACKAGING", "evening": 1, "ingredient": "chicken", "packagingVolume": 2000 },
+    { "id": 11, "type": "RECIPE", "evening": 1, "ingredient": "pasta", "adaptation": 50 },
+    { "id": 12, "type": "RECIPE", "evening": 1, "ingredient": "tomato", "adaptation": 100 },
+    { "id": 13, "type": "RECIPE", "evening": 1, "ingredient": "pasta", "adaptation": -10 }
+  ]
+}

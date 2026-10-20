@@ -1,0 +1,78 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 5,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "tableType": "COMMON",
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 5,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "tableType": "COMMON",
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 5,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [2],
+      "tableType": "COMMON",
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 4,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 5,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [2],
+      "tableType": "COMMON",
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 5,
+      "type": "CASUAL",
+      "size": 9,
+      "visitingTick": 5,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [2],
+      "tableType": "COMMON",
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "type": "STAFF",
+      "evening": 2,
+      "restaurant": 1,
+      "number": -1,
+      "staffType": "COOK",
+      "cookType": "SOUS"
+    },
+    {
+      "id": 2,
+      "type": "STAFF",
+      "evening": 2,
+      "restaurant": 2,
+      "number": -1,
+      "staffType": "WAITSTAFF"
+    }
+  ]
+}

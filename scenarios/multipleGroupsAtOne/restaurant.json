@@ -1,0 +1,33 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "ratsKeller",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 20,
+      "deliveryDrivers": 1,
+      "event": true,
+      "positiveRatings": 0,
+      "negativeRatings": 0,
+      "recipes": [1],
+      "kitchenStaff": {
+        "EXEC": 0,
+        "SOUS": 1,
+        "TOURNANT": 0,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 3,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 6 },
+        { "id": 2, "type": "COMMON", "size": 4 },
+        { "id": 3, "type": "COMMON", "size": 2 },
+        { "id": 4, "type": "COMMON", "size": 2 }
+      ]
+    }
+  ]
+}

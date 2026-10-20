@@ -1,0 +1,51 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 1,
+      "visitingStart": 4,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": []
+    },
+    {
+      "id": 2,
+      "type": "EVENT",
+      "size": 4,
+      "visitingTick": 1,
+      "eventEvening": 4,
+      "tableType": "COMMON",
+      "restaurantTypes": ["EUROPEAN"],
+      "favoriteDishes": {
+        "EUROPEAN": "potatoSoup"
+      },
+      "foodPreferences": []
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 1,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [4],
+      "tableType": "COMMON",
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 4,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 5,
+      "deliveryDistance": 5,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    }
+  ],
+  "incidents": []
+}

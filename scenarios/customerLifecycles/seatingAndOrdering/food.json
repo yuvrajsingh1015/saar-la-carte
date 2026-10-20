@@ -1,0 +1,180 @@
+{
+  "ingredients": [
+    {
+      "name": "potato",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 3
+    },
+    {
+      "name": "onion",
+      "unit": "X",
+      "packagingVolume": 10,
+      "bestBefore": 3
+    },
+    {
+      "name": "garlic",
+      "unit": "g",
+      "packagingVolume": 100,
+      "bestBefore": 3
+    },
+    {
+      "name": "oil",
+      "unit": "mL",
+      "packagingVolume": 500,
+      "bestBefore": 5
+    },
+    {
+      "name": "chicken",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 2
+    },
+    {
+      "name": "rice",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 5
+    },
+    {
+      "name": "beef",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 2
+    },
+    {
+      "name": "pasta",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 5
+    },
+    {
+      "name": "fish",
+      "unit": "g",
+      "packagingVolume": 500,
+      "bestBefore": 2
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "potatoSoup",
+      "duration": 10,
+      "basicDishFor": "EUROPEAN",
+      "cookType": ["EXEC", "SOUS", "TOURNANT", "VEGETABLE"],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 300
+        },
+        {
+          "name": "onion",
+          "amount": 1
+        },
+        {
+          "name": "garlic",
+          "amount": 10
+        },
+        {
+          "name": "oil",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "dishName": "chickenRice",
+      "duration": 20,
+      "basicDishFor": "ASIAN",
+      "cookType": ["EXEC", "SOUS", "TOURNANT", "ROAST"],
+      "ingredients": [
+        {
+          "name": "chicken",
+          "amount": 200
+        },
+        {
+          "name": "rice",
+          "amount": 200
+        },
+        {
+          "name": "onion",
+          "amount": 1
+        },
+        {
+          "name": "oil",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "dishName": "beefPasta",
+      "duration": 15,
+      "cookType": ["EXEC", "SOUS", "TOURNANT", "ROAST"],
+      "ingredients": [
+        {
+          "name": "beef",
+          "amount": 200
+        },
+        {
+          "name": "pasta",
+          "amount": 150
+        },
+        {
+          "name": "garlic",
+          "amount": 10
+        },
+        {
+          "name": "oil",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "dishName": "fishCurry",
+      "duration": 15,
+      "basicDishFor": "AFRICAN",
+      "cookType": ["EXEC", "SOUS", "TOURNANT", "FISH"],
+      "ingredients": [
+        {
+          "name": "fish",
+          "amount": 200
+        },
+        {
+          "name": "rice",
+          "amount": 150
+        },
+        {
+          "name": "onion",
+          "amount": 1
+        },
+        {
+          "name": "oil",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "dishName": "beefBurger",
+      "duration": 10,
+      "basicDishFor": "AMERICAN",
+      "cookType": ["EXEC", "SOUS", "TOURNANT", "ROAST"],
+      "ingredients": [
+        {
+          "name": "beef",
+          "amount": 150
+        },
+        {
+          "name": "onion",
+          "amount": 1
+        },
+        {
+          "name": "oil",
+          "amount": 10
+        }
+      ]
+    }
+  ]
+}

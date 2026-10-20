@@ -1,0 +1,141 @@
+{
+  "$defs": {
+    "incident": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "type": {
+          "type": "string",
+          "enum": ["STAFF", "RECIPE", "PACKAGING", "UNAVAILABLE"]
+        },
+        "evening": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "restaurant": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "number": {
+          "type": "integer",
+          "not": { "const": 0 }
+        },
+        "staffType": {
+          "type": "string",
+          "enum": ["COOK", "WAITSTAFF", "DRIVER"]
+        },
+        "cookType": {
+          "type": "string",
+          "enum": [
+            "SOUS",
+            "TOURNANT",
+            "SAUCE",
+            "FISH",
+            "ROAST",
+            "VEGETABLE",
+            "PASTRY"
+          ]
+        },
+        "ingredient": {
+          "$ref": "ingredient.schema#/$defs/ingredient/properties/name"
+        },
+        "adaptation": {
+          "type": "integer",
+          "not": { "const": 0 }
+        },
+        "packagingVolume": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "duration": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": ["id", "type", "evening"],
+      "allOf": [
+        {
+          "if": {
+            "properties": { "type": { "const": "STAFF" } }
+          },
+          "then": {
+            "required": ["restaurant", "number", "staffType"],
+            "properties": {
+              "restaurantToMerge": false,
+              "ingredient": false,
+              "adaptation": false,
+              "packagingVolume": false,
+              "duration": false
+            },
+            "if": {
+              "properties": { "staffType": { "const": "COOK" } }
+            },
+            "then": {
+              "required": ["cookType"]
+            },
+            "else": {
+              "properties": {
+                "cookType": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "type": { "const": "RECIPE" } }
+          },
+          "then": {
+            "required": ["ingredient", "adaptation"],
+            "properties": {
+              "restaurant": false,
+              "restaurantToMerge": false,
+              "number": false,
+              "staffType": false,
+              "cookType": false,
+              "packagingVolume": false,
+              "duration": false
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "type": { "const": "PACKAGING" } }
+          },
+          "then": {
+            "required": ["ingredient", "packagingVolume"],
+            "properties": {
+              "restaurant": false,
+              "restaurantToMerge": false,
+              "number": false,
+              "staffType": false,
+              "cookType": false,
+              "adaptation": false,
+              "duration": false
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "type": { "const": "UNAVAILABLE" } }
+          },
+          "then": {
+            "required": ["ingredient", "duration"],
+            "properties": {
+              "restaurant": false,
+              "restaurantToMerge": false,
+              "number": false,
+              "staffType": false,
+              "cookType": false,
+              "adaptation": false,
+              "packagingVolume": false
+            }
+          }
+        }
+      ]
+    }
+  }
+}

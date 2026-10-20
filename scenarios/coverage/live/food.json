@@ -1,0 +1,24 @@
+{
+  "ingredients": [
+    { "name": "rice", "unit": "g", "packagingVolume": 100, "bestBefore": 5 },
+    { "name": "oil", "unit": "mL", "packagingVolume": 50, "bestBefore": 8 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Rice Bowl",
+      "duration": 2,
+      "cookType": ["EXEC"],
+      "ingredients": [{ "name": "rice", "amount": 50 }],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 2,
+      "dishName": "Oil Dip",
+      "duration": 2,
+      "cookType": ["EXEC"],
+      "ingredients": [{ "name": "oil", "amount": 10 }],
+      "basicDishFor": "EUROPEAN"
+    }
+  ]
+}

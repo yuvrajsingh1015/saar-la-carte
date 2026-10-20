@@ -1,0 +1,33 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Software Engineering Restaurant",
+      "type": "ASIAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 0,
+      "event": true,
+      "positiveRatings": 0,
+      "negativeRatings": 0,
+      "recipes": [1, 2, 3, 4, 7, 5, 6],
+      "kitchenStaff": {
+        "EXEC": 1, "SOUS": 1, "TOURNANT": 0, "SAUCE": 0,
+        "FISH": 0, "ROAST": 1, "VEGETABLE": 2, "PASTRY": 0
+      },
+      "waitstaff": 30,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 20 },
+        { "id": 2, "type": "COMMON", "size": 10 },
+        { "id": 3, "type": "BAR", "size": 6 },
+        { "id": 4, "type": "BAR", "size": 10 },
+        { "id": 5, "type": "BAR", "size": 15 },
+        { "id": 6, "type": "COMMON", "size": 5 },
+        { "id": 7, "type": "COMMON", "size": 2 },
+        { "id": 8, "type": "COMMON", "size": 2 },
+        { "id": 9, "type": "SEPARATED", "size": 10 },
+        { "id": 10, "type": "SEPARATED", "size": 15 }
+      ]
+    }
+  ]
+}

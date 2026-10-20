@@ -1,0 +1,33 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "closingBistro",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 5,
+      "deliveryDrivers": 0,
+      "event": false,
+      "positiveRatings": 0,
+      "negativeRatings": 0,
+      "recipes": [1, 2],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 2,
+        "TOURNANT": 0,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 1,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 2 },
+        { "id": 2, "type": "COMMON", "size": 2 },
+        { "id": 3, "type": "COMMON", "size": 2 },
+        { "id": 4, "type": "COMMON", "size": 2 }
+      ]
+    }
+  ]
+}

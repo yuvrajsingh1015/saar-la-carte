@@ -1,0 +1,31 @@
+{
+  "ingredients": [
+    { "name": "potato", "unit": "g", "packagingVolume": 1000, "bestBefore": 5 },
+    { "name": "beef", "unit": "g", "packagingVolume": 500, "bestBefore": 5 },
+    { "name": "fish", "unit": "g", "packagingVolume": 500, "bestBefore": 5 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Potato Soup",
+      "duration": 2,
+      "cookType": ["EXEC"],
+      "ingredients": [{ "name": "potato", "amount": 100 }],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 2,
+      "dishName": "Beef Stew",
+      "duration": 40,
+      "cookType": ["FISH"],
+      "ingredients": [{ "name": "beef", "amount": 100 }]
+    },
+    {
+      "id": 3,
+      "dishName": "Fish Filler",
+      "duration": 40,
+      "cookType": ["FISH"],
+      "ingredients": [{ "name": "fish", "amount": 100 }]
+    }
+  ]
+}

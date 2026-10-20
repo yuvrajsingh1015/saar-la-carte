@@ -1,0 +1,103 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Bistro",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 0,
+      "event": false,
+      "positiveRatings": 10,
+      "negativeRatings": 2,
+      "recipes": [
+        1,
+        2
+      ],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 0,
+        "TOURNANT": 1,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 2,
+      "tables": [
+        {
+          "id": 1,
+          "type": "COMMON",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Palace",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 0,
+      "event": false,
+      "positiveRatings": 15,
+      "negativeRatings": 2,
+      "recipes": [
+        2,
+        3
+      ],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 0,
+        "TOURNANT": 1,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 2,
+      "tables": [
+        {
+          "id": 1,
+          "type": "COMMON",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Diner",
+      "type": "AMERICAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 0,
+      "event": false,
+      "positiveRatings": 15,
+      "negativeRatings": 2,
+      "recipes": [
+        2,
+        3
+      ],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 0,
+        "TOURNANT": 1,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 2,
+      "tables": [
+        {
+          "id": 1,
+          "type": "COMMON",
+          "size": 4
+        }
+      ]
+    }
+  ]
+}

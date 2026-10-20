@@ -1,0 +1,69 @@
+{
+  "$defs": {
+    "recipe": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "dishName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "duration": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 40
+        },
+        "cookType": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "EXEC",
+              "SOUS",
+              "TOURNANT",
+              "SAUCE",
+              "FISH",
+              "ROAST",
+              "VEGETABLE",
+              "PASTRY"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "ingredients": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "amount": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": ["name", "amount"]
+          },
+          "minItems": 1
+        },
+        "basicDishFor": {
+          "type": "string",
+          "enum": [
+            "AFRICAN",
+            "ASIAN",
+            "EUROPEAN",
+            "AMERICAN"
+          ]
+        }
+      },
+      "required": ["id", "dishName", "duration", "cookType", "ingredients"]
+    }
+  }
+}

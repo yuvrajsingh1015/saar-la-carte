@@ -1,0 +1,50 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "The Grand Overload",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 0,
+      "event": true,
+      "positiveRatings": 50,
+      "negativeRatings": 0,
+      "recipes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 0,
+        "TOURNANT": 1,
+        "SAUCE": 0,
+        "FISH": 1,
+        "ROAST": 1,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 3,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 4 },
+        { "id": 2, "type": "COMMON", "size": 3 },
+        { "id": 3, "type": "COMMON", "size": 3 },
+        { "id": 4, "type": "COMMON", "size": 4 },
+        { "id": 5, "type": "COMMON", "size": 2 },
+        { "id": 6, "type": "COMMON", "size": 2 },
+        { "id": 7, "type": "COMMON", "size": 3 },
+        { "id": 8, "type": "COMMON", "size": 2 },
+        { "id": 9, "type": "COMMON", "size": 2 },
+        { "id": 10, "type": "COMMON", "size": 3 },
+        { "id": 11, "type": "COMMON", "size": 10 },
+        { "id": 12, "type": "COMMON", "size": 20 },
+        { "id": 13, "type": "COMMON", "size": 20 },
+        { "id": 14, "type": "COMMON", "size": 20 },
+        { "id": 15, "type": "COMMON", "size": 2 }
+      ]
+    }
+  ]
+}

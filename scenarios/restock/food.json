@@ -1,0 +1,58 @@
+{
+  "ingredients": [
+    {
+      "name": "potato",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 2
+    },
+    {
+      "name": "garlic",
+      "unit": "g",
+      "packagingVolume": 50,
+      "bestBefore": 2
+    },
+    {
+      "name": "beef",
+      "unit": "g",
+      "packagingVolume": 500,
+      "bestBefore": 2
+    },
+    {
+      "name": "oil",
+      "unit": "mL",
+      "packagingVolume": 500,
+      "bestBefore": 2
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "beef stew",
+      "duration": 10,
+      "basicDishFor": "EUROPEAN",
+      "cookType": [
+        "EXEC",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 300
+        },
+        {
+          "name": "garlic",
+          "amount": 10
+        },
+        {
+          "name": "beef",
+          "amount": 200
+        },
+        {
+          "name": "oil",
+          "amount": 20
+        }
+      ]
+    }
+  ]
+}

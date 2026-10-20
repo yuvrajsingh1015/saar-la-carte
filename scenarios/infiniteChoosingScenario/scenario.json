@@ -1,0 +1,164 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "COMMON",
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 2,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": []
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 2,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": ["potato"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 2,
+      "deliveryDistance": 5,
+      "restaurantTypes": ["AMERICAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 5,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": []
+    },
+    {
+      "id": 4,
+      "type": "EVENT",
+      "size": 10,
+      "tableType": "COMMON",
+      "restaurantTypes": ["AMERICAN"],
+      "eventEvening": 4,
+      "visitingTick": 6,
+      "favoriteDishes": {
+        "AMERICAN": "chicken burger"
+      },
+      "foodPreferences": []
+    },
+    {
+      "id": 5,
+      "type": "CASUAL",
+      "size": 3,
+      "tableType": "COMMON",
+      "restaurantTypes": ["AFRICAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 1,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": []
+    },
+    {
+      "id": 6,
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "COMMON",
+      "restaurantTypes": ["AFRICAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 4,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": []
+    },
+    {
+      "id": 7,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 4,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": ["rice"]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "EVENT",
+      "size": 10,
+      "tableType": "COMMON",
+      "restaurantTypes": ["AMERICAN"],
+      "eventEvening": 4,
+      "visitingTick": 6,
+      "favoriteDishes": {
+        "AMERICAN": "chicken burger"
+      },
+      "foodPreferences": []
+    },
+    {
+      "id": 9,
+      "type": "REGULAR",
+      "size": 5,
+      "tableType": "COMMON",
+      "visitingTick": 5,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 6,
+      "foodPreferences": [
+        { "size": 5, "favoriteDishes": ["tofu rice"] }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "CASUAL",
+      "size": 7,
+      "tableType": "COMMON",
+      "restaurantTypes": ["AFRICAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 1,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 11,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "restaurantTypes": ["AFRICAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 1,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 12,
+      "type": "CASUAL",
+      "size": 2,
+      "deliveryDistance": 5,
+      "restaurantTypes": ["AMERICAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 5,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": []
+    },
+    {
+      "id": 13,
+      "type": "CASUAL",
+      "size": 2,
+      "deliveryDistance": 5,
+      "restaurantTypes": ["AMERICAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 6,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": []
+    }
+  ],
+  "incidents": []
+}

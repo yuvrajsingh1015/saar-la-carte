@@ -1,0 +1,31 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Trattoria",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 1,
+      "event": true,
+      "positiveRatings": 0,
+      "negativeRatings": 0,
+      "recipes": [1, 2],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 0,
+        "TOURNANT": 0,
+        "SAUCE": 1,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 3,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 4 },
+        { "id": 2, "type": "SEPARATED", "size": 8 }
+      ]
+    }
+  ]
+}

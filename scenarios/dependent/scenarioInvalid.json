@@ -1,0 +1,144 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "BAR",
+      "visitingTick": 1,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "potato ala SOUS"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "potato ala SAUCE"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "potato ala FISH"
+          ]
+        }
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "type": "STAFF",
+      "evening": 2,
+      "restaurant": 1,
+      "number": -1,
+      "staffType": "COOK",
+      "cookType": "SOUS"
+    },
+    {
+      "id": 2,
+      "type": "STAFF",
+      "evening": 2,
+      "restaurant": 1,
+      "number": 1,
+      "staffType": "COOK",
+      "cookType": "TOURNANT"
+    },
+    {
+      "id": 3,
+      "type": "STAFF",
+      "evening": 3,
+      "restaurant": 1,
+      "number": -1,
+      "staffType": "COOK",
+      "cookType": "TOURNANT"
+    },
+    {
+      "id": 4,
+      "type": "STAFF",
+      "evening": 3,
+      "restaurant": 1,
+      "number": 1,
+      "staffType": "COOK",
+      "cookType": "SAUCE"
+    },
+    {
+      "id": 5,
+      "type": "STAFF",
+      "evening": 4,
+      "restaurant": 1,
+      "number": -1,
+      "staffType": "COOK",
+      "cookType": "SAUCE"
+    },
+    {
+      "id": 6,
+      "type": "STAFF",
+      "evening": 4,
+      "restaurant": 1,
+      "number": 1,
+      "staffType": "COOK",
+      "cookType": "FISH"
+    },
+    {
+      "id": 7,
+      "type": "STAFF",
+      "evening": 5,
+      "restaurant": 1,
+      "number": -1,
+      "staffType": "COOK",
+      "cookType": "FISH"
+    },
+    {
+      "id": 8,
+      "type": "STAFF",
+      "evening": 5,
+      "restaurant": 1,
+      "number": 1,
+      "staffType": "COOK",
+      "cookType": "ROAST"
+    },
+    {
+      "id": 9,
+      "type": "STAFF",
+      "evening": 6,
+      "restaurant": 1,
+      "number": -1,
+      "staffType": "COOK",
+      "cookType": "ROAST"
+    },
+    {
+      "id": 10,
+      "type": "STAFF",
+      "evening": 6,
+      "restaurant": 1,
+      "number": 1,
+      "staffType": "COOK",
+      "cookType": "VEGETABLE"
+    },
+    {
+      "id": 11,
+      "type": "STAFF",
+      "evening": 7,
+      "restaurant": 1,
+      "number": -1,
+      "staffType": "COOK",
+      "cookType": "VEGETABLE"
+    },
+    {
+      "id": 12,
+      "type": "STAFF",
+      "evening": 7,
+      "restaurant": 1,
+      "number": 1,
+      "staffType": "COOK",
+      "cookType": "PASTRY"
+    }
+  ]
+}

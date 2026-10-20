@@ -1,0 +1,61 @@
+{
+  "ingredients": [
+    {
+      "name": "rice",
+      "unit": "g",
+      "packagingVolume": 500,
+      "bestBefore": 5
+    },
+    {
+      "name": "chicken",
+      "unit": "g",
+      "packagingVolume": 400,
+      "bestBefore": 2
+    },
+    {
+      "name": "pasta",
+      "unit": "g",
+      "packagingVolume": 500,
+      "bestBefore": 6
+    },
+    {
+      "name": "tomato",
+      "unit": "X",
+      "packagingVolume": 10,
+      "bestBefore": 2
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Rice Bowl",
+      "duration": 10,
+      "cookType": ["EXEC", "SOUS"],
+      "ingredients": [
+        { "name": "rice", "amount": 150 }
+      ],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 2,
+      "dishName": "Chicken Rice",
+      "duration": 20,
+      "cookType": ["ROAST", "SOUS"],
+      "ingredients": [
+        { "name": "chicken", "amount": 120 },
+        { "name": "rice", "amount": 150 }
+      ]
+    },
+    {
+      "id": 3,
+      "dishName": "Tomato Pasta",
+      "duration": 15,
+      "cookType": ["SAUCE", "EXEC"],
+      "ingredients": [
+        { "name": "pasta", "amount": 180 },
+        { "name": "tomato", "amount": 2 }
+      ],
+      "basicDishFor": "EUROPEAN"
+    }
+  ]
+}

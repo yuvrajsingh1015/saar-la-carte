@@ -1,0 +1,22 @@
+{
+  "ingredients": [
+    { "name": "pasta", "unit": "g", "packagingVolume": 500, "bestBefore": 6 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Tomato Pasta",
+      "duration": 40,
+      "cookType": ["EXEC"],
+      "ingredients": [ { "name": "pasta", "amount": 180 } ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 2,
+      "dishName": "Oil Dip",
+      "duration": 2,
+      "cookType": ["EXEC"],
+      "ingredients": [ { "name": "pasta", "amount": 10 } ]
+    }
+  ]
+}

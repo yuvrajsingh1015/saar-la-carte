@@ -1,0 +1,58 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Noodle House",
+      "type": "ASIAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 1,
+      "event": false,
+      "positiveRatings": 4,
+      "negativeRatings": 1,
+      "recipes": [1, 2],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 1,
+        "TOURNANT": 0,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 1,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 2,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 4 },
+        { "id": 2, "type": "BAR", "size": 2 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Trattoria",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 20,
+      "deliveryDrivers": 0,
+      "event": true,
+      "positiveRatings": 8,
+      "negativeRatings": 2,
+      "recipes": [3],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 0,
+        "TOURNANT": 0,
+        "SAUCE": 1,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 2,
+      "tables": [
+        { "id": 1, "type": "SEPARATED", "size": 8 },
+        { "id": 2, "type": "COMMON", "size": 4 }
+      ]
+    }
+  ]
+}

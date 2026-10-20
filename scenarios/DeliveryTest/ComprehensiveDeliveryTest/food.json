@@ -1,0 +1,48 @@
+{
+  "ingredients": [
+    {
+      "name": "chicken",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 3
+    },
+    {
+      "name": "onion",
+      "unit": "g",
+      "packagingVolume": 500,
+      "bestBefore": 3
+    },
+    {
+      "name": "rice",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 3
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "chicken rice",
+      "duration": 10,
+      "basicDishFor": "EUROPEAN",
+      "cookType": [
+        "EXEC",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "chicken",
+          "amount": 200
+        },
+        {
+          "name": "onion",
+          "amount": 50
+        },
+        {
+          "name": "rice",
+          "amount": 200
+        }
+      ]
+    }
+  ]
+}

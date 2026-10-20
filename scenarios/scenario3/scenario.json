@@ -1,0 +1,223 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 3,
+      "visitingStart": 1,
+      "visitingPeriod": 3,
+      "restaurant": 1,
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Chicken Rice"] }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "REGULAR",
+      "size": 5,
+      "tableType": "SEPARATED",
+      "visitingTick": 6,
+      "visitingStart": 1,
+      "visitingPeriod": 4,
+      "restaurant": 2,
+      "foodPreferences": [
+        { "size": 3, "preferredIngredients": ["pasta"] },
+        { "size": 2, "excludedIngredients": ["beef"] }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "REGULAR",
+      "size": 3,
+      "tableType": "COMMON",
+      "visitingTick": 8,
+      "visitingStart": 2,
+      "visitingPeriod": 2,
+      "restaurant": 4,
+      "foodPreferences": [
+        { "size": 3, "favoriteDishes": ["Jollof Rice"] }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "BAR",
+      "visitingTick": 5,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1, 3],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 3, "preferredIngredients": ["rice"] },
+        { "size": 1, "excludedIngredients": ["cream"] }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 12,
+      "restaurantTypes": ["AMERICAN"],
+      "visitingEvenings": [1, 2],
+      "deliveryDistance": 10,
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Classic Burger"] }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 9,
+      "restaurantTypes": ["EUROPEAN", "AFRICAN"],
+      "visitingEvenings": [2],
+      "deliveryDistance": 5,
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        { "size": 1, "preferredIngredients": ["tomato"] }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "EVENT",
+      "size": 12,
+      "tableType": "SEPARATED",
+      "visitingTick": 4,
+      "restaurantTypes": ["EUROPEAN", "AFRICAN"],
+      "eventEvening": 5,
+      "favoriteDishes": {
+        "EUROPEAN": "Tomato Pasta",
+        "AFRICAN": "Jollof Rice"
+      },
+      "foodPreferences": [
+        { "size": 10, "favoriteDishes": ["Tomato Pasta"] },
+        { "size": 2, "excludedIngredients": ["fish"] }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "EVENT",
+      "size": 6,
+      "tableType": "COMMON",
+      "visitingTick": 2,
+      "restaurantTypes": ["AFRICAN"],
+      "eventEvening": 4,
+      "favoriteDishes": {
+        "AFRICAN": "Jollof Rice"
+      },
+      "foodPreferences": [
+        { "size": 6, "preferredIngredients": ["yam"] }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 7,
+      "restaurantTypes": ["AMERICAN", "ASIAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Rice Bowl", "Cheese Burger"] }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 8,
+      "restaurantTypes": ["AMERICAN"],
+      "visitingEvenings": [1],
+      "deliveryDistance": 20,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Classic Burger"] }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 21,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Rice Bowl"] }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 5,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [5],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Cream Pasta"] }
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "type": "STAFF",
+      "evening": 1,
+      "restaurant": 1,
+      "number": 1,
+      "staffType": "COOK",
+      "cookType": "FISH"
+    },
+    {
+      "id": 2,
+      "type": "STAFF",
+      "evening": 2,
+      "restaurant": 3,
+      "number": 1,
+      "staffType": "DRIVER"
+    },
+    {
+      "id": 3,
+      "type": "UNAVAILABLE",
+      "evening": 2,
+      "ingredient": "chicken",
+      "duration": 2
+    },
+    {
+      "id": 4,
+      "type": "UNAVAILABLE",
+      "evening": 5,
+      "ingredient": "cream",
+      "duration": 1
+    },
+    {
+      "id": 5,
+      "type": "RECIPE",
+      "evening": 3,
+      "ingredient": "pepper",
+      "adaptation": 5
+    },
+    {
+      "id": 6,
+      "type": "PACKAGING",
+      "evening": 1,
+      "ingredient": "rice",
+      "packagingVolume": 750
+    },
+    {
+      "id": 7,
+      "type": "STAFF",
+      "evening": 4,
+      "restaurant": 2,
+      "number": -1,
+      "staffType": "WAITSTAFF"
+    }
+  ]
+}

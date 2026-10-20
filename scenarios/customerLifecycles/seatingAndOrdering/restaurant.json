@@ -1,0 +1,88 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Bistro Europa",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 0,
+      "event": false,
+      "positiveRatings": 10,
+      "negativeRatings": 2,
+      "recipes": [1,2,3,4,5],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 1,
+        "TOURNANT": 1,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 1,
+        "VEGETABLE": 1,
+        "PASTRY": 0
+      },
+      "waitstaff": 3,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 6 },
+        { "id": 2, "type": "COMMON", "size": 8 },
+        { "id": 3, "type": "BAR", "size": 4 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Asian Palace",
+      "type": "ASIAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 0,
+      "event": false,
+      "positiveRatings": 15,
+      "negativeRatings": 1,
+      "recipes": [1,2,3,4,5],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 1,
+        "TOURNANT": 1,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 1,
+        "VEGETABLE": 1,
+        "PASTRY": 0
+      },
+      "waitstaff": 3,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 8 },
+        { "id": 2, "type": "COMMON", "size": 10 },
+        { "id": 3, "type": "BAR", "size": 4 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Savannah Grill",
+      "type": "AFRICAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 0,
+      "event": false,
+      "positiveRatings": 8,
+      "negativeRatings": 3,
+      "recipes": [1,2,3,4,5],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 0,
+        "TOURNANT": 2,
+        "SAUCE": 0,
+        "FISH": 1,
+        "ROAST": 1,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 2,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 6 },
+        { "id": 2, "type": "COMMON", "size": 6 },
+        { "id": 3, "type": "BAR", "size": 2 }
+      ]
+    }
+  ]
+}

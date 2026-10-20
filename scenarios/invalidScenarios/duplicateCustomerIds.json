@@ -1,0 +1,31 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 3,
+      "visitingStart": 1,
+      "visitingPeriod": 2,
+      "restaurant": 1,
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Rice Bowl"] }
+      ]
+    },
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 3,
+      "visitingStart": 1,
+      "visitingPeriod": 2,
+      "restaurant": 1,
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Rice Bowl"] }
+      ]
+    }
+  ],
+  "incidents": []
+}

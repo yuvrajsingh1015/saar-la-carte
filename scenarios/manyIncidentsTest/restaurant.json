@@ -1,0 +1,25 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Chaos Kitchen",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 1,
+      "event": false,
+      "positiveRatings": 100,
+      "negativeRatings": 0,
+      "recipes": [1, 2, 3],
+      "kitchenStaff": {
+        "EXEC": 1, "SOUS": 1, "TOURNANT": 1, "SAUCE": 0,
+        "FISH": 0, "ROAST": 1, "VEGETABLE": 0, "PASTRY": 0
+      },
+      "waitstaff": 2,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 4 },
+        { "id": 2, "type": "COMMON", "size": 10 }
+      ]
+    }
+  ]
+}

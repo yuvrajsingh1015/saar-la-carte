@@ -1,0 +1,38 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 8,
+      "tableType": "COMMON",
+      "visitingTick": 1,
+      "visitingStart": 1,
+      "visitingPeriod": 2,
+      "restaurant": 1,
+      "foodPreferences": []
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 3,
+      "visitingTick": 1,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [2],
+      "deliveryDistance": 0,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 3,
+      "visitingTick": 1,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [2],
+      "deliveryDistance": 0,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    }
+  ],
+  "incidents": []
+}

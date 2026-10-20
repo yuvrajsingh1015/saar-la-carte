@@ -1,0 +1,45 @@
+{
+  "ingredients": [
+    {
+      "name": "potato",
+      "unit": "g",
+      "packagingVolume": 5000,
+      "bestBefore": 2
+    },
+    {
+      "name": "egg",
+      "unit": "g",
+      "packagingVolume": 4,
+      "bestBefore": 2
+    },
+    {
+      "name": "cheese",
+      "unit": "g",
+      "packagingVolume": 100,
+      "bestBefore": 2
+    },
+    {
+      "name": "coffee",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 2
+    }
+  ],
+  "recipes": [
+    {
+      "id": 10,
+      "dishName": "afro fries",
+      "duration": 10,
+      "cookType": [
+        "EXEC"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 1000
+        }
+      ],
+      "basicDishFor": "AFRICAN"
+    }
+  ]
+}

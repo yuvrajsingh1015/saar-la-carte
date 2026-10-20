@@ -1,0 +1,79 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 1,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "tableType": "COMMON",
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "preferredIngredients": [
+            "Beef"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 1,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "tableType": "COMMON",
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "preferredIngredients": [
+            "Potato"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 3,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "tableType": "COMMON",
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 4,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 2,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "tableType": "COMMON",
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    }
+  ],
+  "incidents": []
+}

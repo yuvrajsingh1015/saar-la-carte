@@ -1,0 +1,31 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "OrderInn",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 20,
+      "deliveryDrivers": 0,
+      "event": true,
+      "positiveRatings": 0,
+      "negativeRatings": 0,
+      "recipes": [1, 2],
+      "kitchenStaff": {
+        "EXEC": 0,
+        "SOUS": 2,
+        "TOURNANT": 0,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 2,
+      "tables": [
+        { "id": 1, "type": "COMMON", "size": 4 },
+        { "id": 2, "type": "COMMON", "size": 8 }
+      ]
+    }
+  ]
+}

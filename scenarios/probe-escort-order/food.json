@@ -1,0 +1,15 @@
+{
+  "ingredients": [
+    { "name": "nuts", "unit": "g", "packagingVolume": 500, "bestBefore": 6 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Nut Praline",
+      "duration": 15,
+      "cookType": ["PASTRY"],
+      "ingredients": [ { "name": "nuts", "amount": 10 } ],
+      "basicDishFor": "EUROPEAN"
+    }
+  ]
+}

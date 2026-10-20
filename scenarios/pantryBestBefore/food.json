@@ -1,0 +1,45 @@
+{
+  "ingredients": [
+    {
+      "name": "garlic",
+      "unit": "g",
+      "packagingVolume": 100,
+      "bestBefore": 1
+    },
+    {
+      "name": "oil",
+      "unit": "mL",
+      "packagingVolume": 500,
+      "bestBefore": 5
+    },
+    {
+      "name": "potato",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 5
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "potatoSoup",
+      "duration": 10,
+      "basicDishFor": "EUROPEAN",
+      "cookType": ["EXEC", "SOUS", "TOURNANT", "VEGETABLE"],
+      "ingredients": [
+        {
+          "name": "garlic",
+          "amount": 10
+        },
+        {
+          "name": "oil",
+          "amount": 20
+        },
+        {
+          "name": "potato",
+          "amount": 300
+        }
+      ]
+    }
+  ]
+}

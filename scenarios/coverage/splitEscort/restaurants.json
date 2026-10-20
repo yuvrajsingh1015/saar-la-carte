@@ -1,0 +1,22 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Split Hall",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 0,
+      "event": true,
+      "positiveRatings": 0,
+      "negativeRatings": 0,
+      "recipes": [4, 5],
+      "kitchenStaff": {
+        "EXEC": 1, "SOUS": 0, "TOURNANT": 0, "SAUCE": 0,
+        "FISH": 0, "ROAST": 0, "VEGETABLE": 0, "PASTRY": 0
+      },
+      "waitstaff": 1,
+      "tables": [{ "id": 1, "type": "SEPARATED", "size": 12 }]
+    }
+  ]
+}

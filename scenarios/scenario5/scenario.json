@@ -1,0 +1,186 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 3,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "COMMON",
+      "visitingTick": 4,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 4, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 10,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "deliveryDistance": 5,
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 8,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "deliveryDistance": 15,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Tomato Plate"] }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 21,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "EVENT",
+      "size": 4,
+      "tableType": "SEPARATED",
+      "visitingTick": 2,
+      "restaurantTypes": ["EUROPEAN"],
+      "eventEvening": 4,
+      "favoriteDishes": {
+        "EUROPEAN": "Tomato Pasta"
+      },
+      "foodPreferences": [
+        { "size": 4, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "REGULAR",
+      "size": 8,
+      "tableType": "COMMON",
+      "visitingTick": 5,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        { "size": 8, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 21,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [2],
+      "deliveryDistance": 5,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Slow Stew"] }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 3,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [2],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 5,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Rice Bowl"] }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 6,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 3,
+      "visitingStart": 3,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "type": "STAFF",
+      "evening": 2,
+      "restaurant": 1,
+      "number": 1,
+      "staffType": "WAITSTAFF"
+    },
+    {
+      "id": 2,
+      "type": "UNAVAILABLE",
+      "evening": 3,
+      "ingredient": "tomato",
+      "duration": 1
+    },
+    {
+      "id": 3,
+      "type": "RECIPE",
+      "evening": 4,
+      "ingredient": "rice",
+      "adaptation": 10
+    }
+  ]
+}

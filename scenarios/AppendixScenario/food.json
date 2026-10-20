@@ -1,0 +1,151 @@
+{
+  "ingredients": [
+    {
+      "name": "chicken",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 1
+    },
+    {
+      "name": "rice",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 3
+    },
+    {
+      "name": "pasta",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 3
+    },
+    {
+      "name": "garlic",
+      "unit": "g",
+      "packagingVolume": 50,
+      "bestBefore": 1
+    },
+    {
+      "name": "oil",
+      "unit": "mL",
+      "packagingVolume": 500,
+      "bestBefore": 1
+    },
+    {
+      "name": "beef",
+      "unit": "g",
+      "packagingVolume": 100,
+      "bestBefore": 1
+    },
+    {
+      "name": "potato",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 1
+    },
+    {
+      "name": "onion",
+      "unit": "X",
+      "packagingVolume": 10,
+      "bestBefore": 1
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "chicken rice",
+      "duration": 30,
+      "basicDishFor": "ASIAN",
+      "cookType": [
+        "EXEC",
+        "SOUS",
+        "TOURNANT",
+        "ROAST"
+      ],
+      "ingredients": [
+        {
+          "name": "chicken",
+          "amount": 100
+        },
+        {
+          "name": "rice",
+          "amount": 200
+        },
+        {
+          "name": "onion",
+          "amount": 1
+        },
+        {
+          "name": "garlic",
+          "amount": 10
+        },
+        {
+          "name": "oil",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "dishName": "beef pasta",
+      "duration": 25,
+      "cookType": [
+        "EXEC",
+        "SOUS",
+        "TOURNANT",
+        "ROAST"
+      ],
+      "ingredients": [
+        {
+          "name": "beef",
+          "amount": 150
+        },
+        {
+          "name": "pasta",
+          "amount": 200
+        },
+        {
+          "name": "onion",
+          "amount": 1
+        },
+        {
+          "name": "garlic",
+          "amount": 10
+        },
+        {
+          "name": "oil",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "dishName": "potato soup",
+      "duration": 10,
+      "basicDishFor": "EUROPEAN",
+      "cookType": [
+        "EXEC",
+        "SOUS",
+        "TOURNANT",
+        "VEGETABLE"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 300
+        },
+        {
+          "name": "onion",
+          "amount": 1
+        },
+        {
+          "name": "garlic",
+          "amount": 10
+        },
+        {
+          "name": "oil",
+          "amount": 20
+        }
+      ]
+    }
+  ]
+}

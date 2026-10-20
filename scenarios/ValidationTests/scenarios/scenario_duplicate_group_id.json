@@ -1,0 +1,113 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "BAR",
+      "visitingTick": 5,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "BAR",
+      "visitingTick": 12,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "mini Rice Bowl"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Rice Bowl"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 5,
+      "deliveryDistance": 10,
+      "visitingTick": 10,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        6,
+        7
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 4,
+      "type": "CASUAL",
+      "size": 5,
+      "deliveryDistance": 14,
+      "visitingTick": 10,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        6,
+        7
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "type": "UNAVAILABLE",
+      "evening": 2,
+      "ingredient": "rice",
+      "duration": 2
+    },
+    {
+      "id": 2,
+      "type": "STAFF",
+      "evening": 4,
+      "restaurant": 2,
+      "number": -1,
+      "staffType": "COOK",
+      "cookType": "SOUS"
+    },
+    {
+      "id": 3,
+      "type": "STAFF",
+      "evening": 4,
+      "restaurant": 1,
+      "number": -1,
+      "staffType": "COOK",
+      "cookType": "SOUS"
+    }
+  ]
+}

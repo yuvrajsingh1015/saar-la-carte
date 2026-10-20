@@ -1,0 +1,182 @@
+{
+  "ingredients": [
+    {
+      "name": "tamarind",
+      "unit": "g",
+      "packagingVolume": 80,
+      "bestBefore": 2
+    },
+    {
+      "name": "sumac",
+      "unit": "g",
+      "packagingVolume": 20,
+      "bestBefore": 4
+    },
+    {
+      "name": "yam",
+      "unit": "g",
+      "packagingVolume": 250,
+      "bestBefore": 1
+    },
+    {
+      "name": "kelp",
+      "unit": "g",
+      "packagingVolume": 100,
+      "bestBefore": 3
+    },
+    {
+      "name": "verjuice",
+      "unit": "mL",
+      "packagingVolume": 300,
+      "bestBefore": 3
+    },
+    {
+      "name": "samphire",
+      "unit": "X",
+      "packagingVolume": 10,
+      "bestBefore": 2
+    },
+    {
+      "name": "okra",
+      "unit": "g",
+      "packagingVolume": 120,
+      "bestBefore": 1
+    },
+    {
+      "name": "anise",
+      "unit": "g",
+      "packagingVolume": 15,
+      "bestBefore": 5
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Yam Pottage",
+      "duration": 10,
+      "cookType": [
+        "TOURNANT",
+        "VEGETABLE"
+      ],
+      "ingredients": [
+        {
+          "name": "yam",
+          "amount": 60
+        },
+        {
+          "name": "samphire",
+          "amount": 1
+        }
+      ],
+      "basicDishFor": "AFRICAN"
+    },
+    {
+      "id": 2,
+      "dishName": "Okra Tagine",
+      "duration": 30,
+      "cookType": [
+        "SAUCE",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "okra",
+          "amount": 50
+        },
+        {
+          "name": "tamarind",
+          "amount": 6
+        },
+        {
+          "name": "verjuice",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "dishName": "Sumac Skewers",
+      "duration": 40,
+      "cookType": [
+        "ROAST",
+        "EXEC"
+      ],
+      "ingredients": [
+        {
+          "name": "sumac",
+          "amount": 4
+        },
+        {
+          "name": "yam",
+          "amount": 40
+        },
+        {
+          "name": "verjuice",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "dishName": "Kelp Pilaf",
+      "duration": 20,
+      "cookType": [
+        "FISH",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "kelp",
+          "amount": 45
+        },
+        {
+          "name": "anise",
+          "amount": 1
+        }
+      ],
+      "basicDishFor": "AMERICAN"
+    },
+    {
+      "id": 5,
+      "dishName": "Samphire Galette",
+      "duration": 20,
+      "cookType": [
+        "PASTRY",
+        "SOUS"
+      ],
+      "ingredients": [
+        {
+          "name": "samphire",
+          "amount": 3
+        },
+        {
+          "name": "tamarind",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "dishName": "Anise Fritters",
+      "duration": 10,
+      "cookType": [
+        "TOURNANT",
+        "SAUCE"
+      ],
+      "ingredients": [
+        {
+          "name": "yam",
+          "amount": 50
+        },
+        {
+          "name": "anise",
+          "amount": 2
+        },
+        {
+          "name": "verjuice",
+          "amount": 10
+        }
+      ]
+    }
+  ]
+}

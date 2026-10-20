@@ -1,0 +1,150 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "PotatoKingdom",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 10,
+      "deliveryDrivers": 1,
+      "event": true,
+      "positiveRatings": 1,
+      "negativeRatings": 0,
+      "recipes": [
+        2
+      ],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 0,
+        "TOURNANT": 0,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 2,
+        "PASTRY": 0
+      },
+      "waitstaff": 2,
+
+      "tables": [
+        {
+          "id": 1,
+          "type": "COMMON",
+          "size": 9
+        },
+        {
+          "id": 2,
+          "type": "COMMON",
+          "size": 5
+        },
+        {
+          "id": 3,
+          "type": "BAR",
+          "size": 5
+        },
+        {
+          "id": 4,
+          "type": "SEPARATED",
+          "size": 9
+        }
+
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AsianMeatWorld",
+      "type": "ASIAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 10,
+      "deliveryDrivers": 1,
+      "event": false,
+      "positiveRatings": 0,
+      "negativeRatings": 0,
+      "recipes": [
+        1, 3
+      ],
+      "kitchenStaff": {
+        "EXEC": 0,
+        "SOUS": 0,
+        "TOURNANT": 1,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 2,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 1,
+
+      "tables": [
+        {
+          "id": 1,
+          "type": "COMMON",
+          "size": 9
+        },
+        {
+          "id": 2,
+          "type": "BAR",
+          "size": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "AmericanFoodMix",
+      "type": "AMERICAN",
+      "openingTickStart": 2,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 1,
+      "event": true,
+      "positiveRatings": 0,
+      "negativeRatings": 1,
+      "recipes": [
+        1, 3, 0
+      ],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 1,
+        "TOURNANT": 0,
+        "SAUCE": 0,
+        "FISH": 0,
+        "ROAST": 2,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 2,
+
+      "tables": [
+        {
+          "id": 1,
+          "type": "COMMON",
+          "size": 5
+        },
+        {
+          "id": 2,
+          "type": "COMMON",
+          "size": 5
+        },
+        {
+          "id": 3,
+          "type": "BAR",
+          "size": 2
+        },
+        {
+          "id": 4,
+          "type": "BAR",
+          "size": 5
+        },
+        {
+          "id": 5,
+          "type": "SEPARATED",
+          "size": 6
+        },
+        {
+          "id": 6,
+          "type": "COMMON",
+          "size": 7
+        }
+      ]
+    }
+  ]
+
+}

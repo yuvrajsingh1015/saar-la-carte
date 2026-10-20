@@ -1,0 +1,27 @@
+{
+  "$defs": {
+    "ingredient": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unit": {
+          "type": "string",
+          "enum": ["g", "X", "mL"]
+        },
+        "packagingVolume": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "bestBefore": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": ["name", "unit", "packagingVolume", "bestBefore"]
+    }
+  }
+}

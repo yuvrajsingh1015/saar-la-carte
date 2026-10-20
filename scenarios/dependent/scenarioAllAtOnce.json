@@ -1,0 +1,112 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "coffee cup"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "fries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 1,
+      "deliveryDistance": 37,
+      "visitingTick": 12,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "cake"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "CASUAL",
+      "size": 2,
+      "deliveryDistance": 12,
+      "visitingTick": 12,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": [
+            "egg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "CASUAL",
+      "size": 1,
+      "deliveryDistance": 37,
+      "visitingTick": 14,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "cake"
+          ]
+        }
+      ]
+    }
+  ],
+  "incidents": []
+}

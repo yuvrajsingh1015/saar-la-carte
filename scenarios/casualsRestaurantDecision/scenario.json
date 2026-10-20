@@ -1,0 +1,77 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "EUROPEAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "tableType": "COMMON",
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 8,
+      "deliveryDistance": 10,
+      "restaurantTypes": [
+        "EUROPEAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "EUROPEAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "deliveryDistance": 10,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 4,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "EUROPEAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "tableType": "COMMON",
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": [
+            "Potato",
+            "Chicken"
+          ]
+        }
+      ]
+    }
+  ],
+  "incidents": []
+}

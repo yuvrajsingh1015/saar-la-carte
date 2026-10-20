@@ -1,0 +1,93 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "EVENT",
+      "size": 11,
+      "tableType": "COMMON",
+      "visitingTick": 1,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "eventEvening": 4,
+      "favoriteDishes": {
+        "AMERICAN": "coffee cup"
+      },
+      "foodPreferences": [
+        {
+          "size": 11,
+          "favoriteDishes": [
+            "coffee cup"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "EVENT",
+      "size": 10,
+      "tableType": "BAR",
+      "visitingTick": 2,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "eventEvening": 4,
+      "favoriteDishes": {
+        "AMERICAN": "coffee cup"
+      },
+      "foodPreferences": [
+        {
+          "size": 10,
+          "favoriteDishes": [
+            "coffee cup"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "EVENT",
+      "size": 4,
+      "tableType": "COMMON",
+      "visitingTick": 3,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "eventEvening": 4,
+      "favoriteDishes": {
+        "AMERICAN": "cake"
+      },
+      "foodPreferences": [
+        {
+          "size": 4,
+          "favoriteDishes": [
+            "cake"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "EVENT",
+      "size": 11,
+      "tableType": "COMMON",
+      "visitingTick": 1,
+      "restaurantTypes": [
+        "AMERICAN"
+      ],
+      "eventEvening": 4,
+      "favoriteDishes": {
+        "AMERICAN": "coffee cup"
+      },
+      "foodPreferences": [
+        {
+          "size": 11,
+          "favoriteDishes": [
+            "coffee cup"
+          ]
+        }
+      ]
+    }
+  ],
+  "incidents": []
+}

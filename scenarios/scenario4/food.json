@@ -1,0 +1,38 @@
+{
+  "ingredients": [
+    {
+      "name": "pasta",
+      "unit": "g",
+      "packagingVolume": 500,
+      "bestBefore": 6
+    },
+    {
+      "name": "tomato",
+      "unit": "X",
+      "packagingVolume": 10,
+      "bestBefore": 2
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Tomato Pasta",
+      "duration": 15,
+      "cookType": ["SAUCE", "EXEC"],
+      "ingredients": [
+        { "name": "pasta", "amount": 180 },
+        { "name": "tomato", "amount": 2 }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 2,
+      "dishName": "Tomato Plate",
+      "duration": 10,
+      "cookType": ["SAUCE", "EXEC"],
+      "ingredients": [
+        { "name": "tomato", "amount": 1 }
+      ]
+    }
+  ]
+}

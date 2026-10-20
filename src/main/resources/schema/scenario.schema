@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "customerGroups": {
+      "type": "array",
+      "items": {
+        "$ref": "customerGroup.schema#/$defs/customerGroup"
+      },
+      "uniqueItems": true
+    },
+    "incidents": {
+      "type": "array",
+      "items": {
+        "$ref": "incident.schema#/$defs/incident"
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": ["customerGroups", "incidents"]
+}

@@ -1,0 +1,22 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Rice Only",
+      "type": "ASIAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 24,
+      "deliveryDrivers": 0,
+      "event": false,
+      "positiveRatings": 0,
+      "negativeRatings": 0,
+      "recipes": [1],
+      "kitchenStaff": {
+        "EXEC": 1, "SOUS": 0, "TOURNANT": 0, "SAUCE": 0,
+        "FISH": 0, "ROAST": 0, "VEGETABLE": 0, "PASTRY": 0
+      },
+      "waitstaff": 1,
+      "tables": [{ "id": 1, "type": "COMMON", "size": 4 }]
+    }
+  ]
+}

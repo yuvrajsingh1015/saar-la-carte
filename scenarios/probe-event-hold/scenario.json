@@ -1,0 +1,29 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 10,
+      "tableType": "COMMON",
+      "visitingTick": 1,
+      "visitingStart": 4,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": []
+    },
+    {
+      "id": 2,
+      "type": "EVENT",
+      "size": 25,
+      "tableType": "COMMON",
+      "visitingTick": 2,
+      "eventEvening": 4,
+      "restaurantTypes": ["EUROPEAN"],
+      "favoriteDishes": { "EUROPEAN": "appleTart" },
+      "foodPreferences": [
+        { "size": 25, "favoriteDishes": ["appleTart"] }
+      ]
+    }
+  ],
+  "incidents": []
+}

@@ -1,0 +1,31 @@
+
+{
+  "ingredients": [
+    { "name": "chicken", "unit": "g", "packagingVolume": 1000, "bestBefore": 2 },
+    { "name": "potato", "unit": "g", "packagingVolume": 1000, "bestBefore": 2 },
+    { "name": "rice", "unit": "g", "packagingVolume": 1000, "bestBefore": 3 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "chickenRice",
+      "duration": 10,
+      "cookType": ["EXEC", "SOUS", "ROAST"],
+      "ingredients": [
+        { "name": "chicken", "amount": 200 },
+        { "name": "rice", "amount": 150 }
+      ],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 2,
+      "dishName": "potatoSoup",
+      "duration": 10,
+      "cookType": ["EXEC", "TOURNANT"],
+      "ingredients": [
+        { "name": "potato", "amount": 300 }
+      ],
+      "basicDishFor": "EUROPEAN"
+    }
+  ]
+}

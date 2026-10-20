@@ -1,0 +1,93 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 2,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 5,
+      "deliveryDistance": 5,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [{ "size": 2, "favoriteDishes": ["chicken rice"] }]
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 2,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 6,
+      "deliveryDistance": 10,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [{ "size": 2, "favoriteDishes": ["tofu rice"] }]
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 2,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 8,
+      "deliveryDistance": 20,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [{ "size": 2, "favoriteDishes": ["beef pasta"] }]
+    },
+    {
+      "id": 4,
+      "type": "REGULAR",
+      "size": 3,
+      "tableType": "COMMON",
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "visitingTick": 2,
+      "restaurant": 1,
+      "foodPreferences": [{ "size": 3, "favoriteDishes": ["beef pasta"] }]
+    },
+    {
+      "id": 5,
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "COMMON",
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 3,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [{ "size": 4, "favoriteDishes": ["chicken rice"] }]
+    },
+    {
+      "id": 6,
+      "type": "CASUAL",
+      "size": 2,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 10,
+      "deliveryDistance": 5,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [{ "size": 2, "favoriteDishes": ["tofu rice"] }]
+    },
+    {
+      "id": 7,
+      "type": "CASUAL",
+      "size": 2,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 11,
+      "deliveryDistance": 5,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [{ "size": 2, "favoriteDishes": ["beef pasta"] }]
+    },
+    {
+      "id": 8,
+      "type": "CASUAL",
+      "size": 2,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "visitingTick": 15,
+      "deliveryDistance": 12,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [{ "size": 2, "favoriteDishes": ["chicken rice"] }]
+    }
+  ],
+  "incidents": []
+}

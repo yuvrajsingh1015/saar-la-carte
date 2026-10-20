@@ -1,0 +1,48 @@
+{
+  "ingredients": [
+    { "name": "pasta", "unit": "g", "packagingVolume": 500, "bestBefore": 6 },
+    { "name": "tomato", "unit": "X", "packagingVolume": 10, "bestBefore": 4 },
+    { "name": "rice", "unit": "g", "packagingVolume": 400, "bestBefore": 6 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Tomato Pasta",
+      "duration": 2,
+      "cookType": ["SAUCE", "EXEC"],
+      "ingredients": [
+        { "name": "pasta", "amount": 180 },
+        { "name": "tomato", "amount": 2 }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 2,
+      "dishName": "Tomato Plate",
+      "duration": 12,
+      "cookType": ["SAUCE", "EXEC"],
+      "ingredients": [
+        { "name": "tomato", "amount": 1 }
+      ]
+    },
+    {
+      "id": 3,
+      "dishName": "Slow Stew",
+      "duration": 4,
+      "cookType": ["SAUCE", "EXEC"],
+      "ingredients": [
+        { "name": "tomato", "amount": 1 }
+      ]
+    },
+    {
+      "id": 4,
+      "dishName": "Rice Bowl",
+      "duration": 2,
+      "cookType": ["EXEC"],
+      "ingredients": [
+        { "name": "rice", "amount": 100 }
+      ],
+      "basicDishFor": "ASIAN"
+    }
+  ]
+}

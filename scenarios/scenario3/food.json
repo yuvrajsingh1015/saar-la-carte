@@ -1,0 +1,125 @@
+{
+  "ingredients": [
+    { "name": "rice", "unit": "g", "packagingVolume": 500, "bestBefore": 5 },
+    { "name": "chicken", "unit": "g", "packagingVolume": 400, "bestBefore": 2 },
+    { "name": "pasta", "unit": "g", "packagingVolume": 500, "bestBefore": 6 },
+    { "name": "tomato", "unit": "X", "packagingVolume": 10, "bestBefore": 2 },
+    { "name": "beef", "unit": "g", "packagingVolume": 300, "bestBefore": 2 },
+    { "name": "bun", "unit": "X", "packagingVolume": 8, "bestBefore": 3 },
+    { "name": "cheese", "unit": "g", "packagingVolume": 200, "bestBefore": 4 },
+    { "name": "oil", "unit": "mL", "packagingVolume": 250, "bestBefore": 8 },
+    { "name": "fish", "unit": "g", "packagingVolume": 350, "bestBefore": 1 },
+    { "name": "yam", "unit": "g", "packagingVolume": 600, "bestBefore": 4 },
+    { "name": "pepper", "unit": "g", "packagingVolume": 100, "bestBefore": 7 },
+    { "name": "cream", "unit": "mL", "packagingVolume": 200, "bestBefore": 3 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Rice Bowl",
+      "duration": 10,
+      "cookType": ["EXEC", "SOUS"],
+      "ingredients": [
+        { "name": "rice", "amount": 150 },
+        { "name": "oil", "amount": 10 }
+      ],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 2,
+      "dishName": "Chicken Rice",
+      "duration": 20,
+      "cookType": ["ROAST", "SOUS"],
+      "ingredients": [
+        { "name": "chicken", "amount": 120 },
+        { "name": "rice", "amount": 150 }
+      ]
+    },
+    {
+      "id": 3,
+      "dishName": "Tomato Pasta",
+      "duration": 15,
+      "cookType": ["SAUCE", "EXEC"],
+      "ingredients": [
+        { "name": "pasta", "amount": 180 },
+        { "name": "tomato", "amount": 2 }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 4,
+      "dishName": "Classic Burger",
+      "duration": 12,
+      "cookType": ["ROAST", "TOURNANT"],
+      "ingredients": [
+        { "name": "beef", "amount": 150 },
+        { "name": "bun", "amount": 1 }
+      ],
+      "basicDishFor": "AMERICAN"
+    },
+    {
+      "id": 5,
+      "dishName": "Jollof Rice",
+      "duration": 22,
+      "cookType": ["SAUCE", "VEGETABLE"],
+      "ingredients": [
+        { "name": "rice", "amount": 180 },
+        { "name": "tomato", "amount": 3 },
+        { "name": "pepper", "amount": 15 }
+      ],
+      "basicDishFor": "AFRICAN"
+    },
+    {
+      "id": 6,
+      "dishName": "Jollof Rice",
+      "duration": 18,
+      "cookType": ["SAUCE", "EXEC"],
+      "ingredients": [
+        { "name": "rice", "amount": 160 },
+        { "name": "tomato", "amount": 2 },
+        { "name": "yam", "amount": 40 }
+      ]
+    },
+    {
+      "id": 7,
+      "dishName": "Grilled Fish",
+      "duration": 16,
+      "cookType": ["FISH", "ROAST"],
+      "ingredients": [
+        { "name": "fish", "amount": 200 },
+        { "name": "oil", "amount": 15 }
+      ]
+    },
+    {
+      "id": 8,
+      "dishName": "Cream Pasta",
+      "duration": 14,
+      "cookType": ["SAUCE", "PASTRY"],
+      "ingredients": [
+        { "name": "pasta", "amount": 170 },
+        { "name": "cream", "amount": 50 }
+      ]
+    },
+    {
+      "id": 9,
+      "dishName": "Cheese Burger",
+      "duration": 14,
+      "cookType": ["ROAST", "EXEC"],
+      "ingredients": [
+        { "name": "beef", "amount": 150 },
+        { "name": "bun", "amount": 1 },
+        { "name": "cheese", "amount": 30 }
+      ]
+    },
+    {
+      "id": 10,
+      "dishName": "Yam Bowl",
+      "duration": 12,
+      "cookType": ["VEGETABLE", "TOURNANT"],
+      "ingredients": [
+        { "name": "yam", "amount": 200 },
+        { "name": "pepper", "amount": 10 }
+      ]
+    }
+  ]
+}

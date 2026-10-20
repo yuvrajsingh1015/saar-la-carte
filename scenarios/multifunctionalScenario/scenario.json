@@ -1,0 +1,116 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 10,
+      "tableType": "COMMON",
+      "visitingTick": 4,
+      "visitingStart": 2,
+      "visitingPeriod": 1,
+      "restaurant": 2,
+      "foodPreferences": []
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 8,
+      "tableType": "COMMON",
+      "restaurantTypes": [
+        "EUROPEAN",
+        "AMERICAN"
+      ],
+      "visitingEvenings": [
+        1,
+        3
+      ],
+      "visitingTick": 2,
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": ["potato"],
+          "preferredIngredients": ["beef"]
+        }
+      ],
+      "ratingLikelihood": "NEVER"
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "BAR",
+      "restaurantTypes": [
+        "EUROPEAN",
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1, 2, 4
+      ],
+      "visitingTick": 2,
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": ["chicken"],
+          "preferredIngredients": ["rice"]
+        }
+      ],
+      "ratingLikelihood": "ALWAYS"
+    },
+    {
+      "id": 4,
+      "type": "EVENT",
+      "size": 10,
+      "tableType": "COMMON",
+      "visitingTick": 4,
+      "restaurantTypes": [
+        "EUROPEAN",
+        "AFRICAN"
+      ],
+      "eventEvening": 4,
+      "favoriteDishes": {
+        "EUROPEAN": "potato soup",
+        "AFRICAN": "beef pasta"
+      },
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "beef pasta"
+          ]
+        }
+      ]
+    }
+    ],
+  "incidents": [
+    {
+      "id": 1,
+      "type": "STAFF",
+      "evening": 2,
+      "restaurant": 3,
+      "number": 1,
+      "staffType": "COOK",
+      "cookType": "VEGETABLE"
+    },
+    {
+      "id": 2,
+      "type": "RECIPE",
+      "evening": 3,
+      "ingredient": "pasta",
+      "adaptation": 50
+    },
+    {
+      "id": 4,
+      "type": "PACKAGING",
+      "evening": 4,
+      "ingredient": "potato",
+      "packagingVolume": 15
+    },
+    {
+      "id": 3,
+      "type": "UNAVAILABLE",
+      "evening": 1,
+      "ingredient": "chicken",
+      "duration": 1
+    }
+  ]
+}

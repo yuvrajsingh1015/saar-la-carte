@@ -1,0 +1,39 @@
+{
+  "ingredients": [
+    { "name": "Potato", "unit": "g", "packagingVolume": 2000, "bestBefore": 10 },
+    { "name": "Beef", "unit": "g", "packagingVolume": 2000, "bestBefore": 10 },
+    { "name": "Chicken", "unit": "g", "packagingVolume": 2000, "bestBefore": 10 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "potatoSoup",
+      "duration": 8,
+      "cookType": ["EXEC"],
+      "ingredients": [
+        { "name": "Potato", "amount": 100 }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 2,
+      "dishName": "beefStew",
+      "duration": 35,
+      "cookType": ["SOUS"],
+      "ingredients": [
+        { "name": "Beef", "amount": 200 }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 3,
+      "dishName": "noneOfThisIsReal",
+      "duration": 15,
+      "cookType": ["SOUS"],
+      "ingredients": [
+        { "name": "Chicken", "amount": 200 }
+      ],
+      "basicDishFor": "EUROPEAN"
+    }
+  ]
+}

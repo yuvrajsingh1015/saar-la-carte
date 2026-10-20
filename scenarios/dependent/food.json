@@ -1,0 +1,180 @@
+{
+  "ingredients": [
+    {
+      "name": "potato",
+      "unit": "g",
+      "packagingVolume": 5000,
+      "bestBefore": 2
+    },
+    {
+      "name": "egg",
+      "unit": "g",
+      "packagingVolume": 4,
+      "bestBefore": 2
+    },
+    {
+      "name": "cheese",
+      "unit": "g",
+      "packagingVolume": 100,
+      "bestBefore": 2
+    },
+    {
+      "name": "coffee",
+      "unit": "g",
+      "packagingVolume": 1000,
+      "bestBefore": 2
+    }
+
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "potato ala SOUS",
+      "duration": 10,
+      "cookType": [
+        "SOUS"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 150
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 2,
+      "dishName": "potato ala TOURNANT",
+      "duration": 10,
+      "cookType": [
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 150
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 3,
+      "dishName": "potato ala SAUCE",
+      "duration": 10,
+      "cookType": [
+        "SAUCE"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 150
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 4,
+      "dishName": "potato ala FISH",
+      "duration": 10,
+      "cookType": [
+        "FISH"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 150
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 5,
+      "dishName": "potato ala ROAST",
+      "duration": 10,
+      "cookType": [
+        "ROAST"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 150
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 6,
+      "dishName": "potato ala VEGETABLE",
+      "duration": 10,
+      "cookType": [
+        "VEGETABLE"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 150
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 7,
+      "dishName": "potato ala PASTRY",
+      "duration": 10,
+      "cookType": [
+        "PASTRY"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 150
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 8,
+      "dishName": "coffee cup",
+      "duration": 15,
+      "cookType": [
+        "EXEC"
+      ],
+      "ingredients": [
+        {
+          "name": "coffee",
+          "amount": 101
+        }
+      ],
+      "basicDishFor": "AMERICAN"
+    },
+    {
+      "id": 9,
+      "dishName": "cake",
+      "duration": 21,
+      "cookType": [
+        "EXEC"
+      ],
+      "ingredients": [
+        {
+          "name": "egg",
+          "amount": 2
+        }
+      ],
+      "basicDishFor": "AMERICAN"
+    },
+    {
+      "id": 10,
+      "dishName": "fries",
+      "duration": 10,
+      "cookType": [
+        "EXEC"
+      ],
+      "ingredients": [
+        {
+          "name": "potato",
+          "amount": 1000
+        }
+      ]
+    }
+  ]
+}

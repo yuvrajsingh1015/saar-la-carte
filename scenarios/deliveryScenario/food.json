@@ -1,0 +1,34 @@
+{
+  "ingredients": [
+    { "name": "chicken", "unit": "g", "packagingVolume": 500, "bestBefore": 5 },
+    { "name": "rice", "unit": "g", "packagingVolume": 1000, "bestBefore": 5 },
+    { "name": "tofu", "unit": "g", "packagingVolume": 500, "bestBefore": 5 },
+    { "name": "beef", "unit": "g", "packagingVolume": 500, "bestBefore": 5 },
+    { "name": "pasta", "unit": "g", "packagingVolume": 1000, "bestBefore": 5 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "chicken rice",
+      "duration": 20,
+      "cookType": ["EXEC"],
+      "ingredients": [ { "name": "chicken", "amount": 100 }, { "name": "rice", "amount": 100 } ],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 2,
+      "dishName": "tofu rice",
+      "duration": 20,
+      "cookType": ["EXEC"],
+      "ingredients": [ { "name": "tofu", "amount": 100 }, { "name": "rice", "amount": 100 } ]
+    },
+    {
+      "id": 3,
+      "dishName": "beef pasta",
+      "duration": 30,
+      "cookType": ["EXEC"],
+      "ingredients": [ { "name": "beef", "amount": 100 }, { "name": "pasta", "amount": 100 } ],
+      "basicDishFor": "EUROPEAN"
+    }
+  ]
+}

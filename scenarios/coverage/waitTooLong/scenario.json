@@ -1,0 +1,32 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 1,
+      "tableType": "COMMON",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Fish Filler"] }
+      ],
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "NEVER"
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 1,
+      "tableType": "COMMON",
+      "foodPreferences": [
+        { "size": 1, "favoriteDishes": ["Potato Soup"] },
+        { "size": 1, "favoriteDishes": ["Beef Stew"] }
+      ],
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "ALWAYS"
+    }
+  ],
+  "incidents": []
+}

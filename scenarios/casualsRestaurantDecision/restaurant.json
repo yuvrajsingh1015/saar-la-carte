@@ -1,0 +1,58 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "ratsKeller",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 23,
+      "deliveryDrivers": 2,
+      "event": false,
+      "positiveRatings": 1,
+      "negativeRatings": 0,
+      "recipes": [1],
+      "kitchenStaff":
+      {
+        "EXEC": 1,
+        "SOUS": 3,
+        "TOURNANT": 0,
+        "SAUCE": 5,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 2,
+        "PASTRY": 0
+      },
+      "waitstaff": 4,
+      "tables": [
+        { "id": 1, "type":  "COMMON", "size":  2 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ming",
+      "type": "ASIAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 20,
+      "deliveryDrivers": 1,
+      "event": true,
+      "positiveRatings": 4,
+      "negativeRatings": 1,
+      "recipes": [1],
+      "kitchenStaff":
+      {
+        "EXEC": 1,
+        "SOUS": 3,
+        "TOURNANT": 0,
+        "SAUCE": 5,
+        "FISH": 0,
+        "ROAST": 0,
+        "VEGETABLE": 2,
+        "PASTRY": 0
+      },
+      "waitstaff": 4,
+      "tables": [
+        { "id": 1, "type":  "COMMON", "size":  2 }
+      ]
+    }
+  ]
+}

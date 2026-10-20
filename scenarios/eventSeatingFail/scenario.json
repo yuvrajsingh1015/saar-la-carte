@@ -1,0 +1,20 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "EVENT",
+      "size": 12,
+      "visitingTick": 1,
+      "eventEvening": 4,
+      "tableType": "COMMON",
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "favoriteDishes": {
+        "EUROPEAN": "potatoSoup"
+      },
+      "foodPreferences": []
+    }
+  ],
+  "incidents": []
+}

@@ -1,0 +1,199 @@
+{
+  "ingredients": [
+    {
+      "name": "beef",
+      "unit": "g",
+      "packagingVolume": 100,
+      "bestBefore": 3
+    },
+    {
+      "name": "pasta",
+      "unit": "g",
+      "packagingVolume": 100,
+      "bestBefore": 10
+    },
+    {
+      "name": "tomato",
+      "unit": "X",
+      "packagingVolume": 1,
+      "bestBefore": 5
+    },
+    {
+      "name": "fish",
+      "unit": "g",
+      "packagingVolume": 100,
+      "bestBefore": 2
+    },
+    {
+      "name": "water",
+      "unit": "mL",
+      "packagingVolume": 100,
+      "bestBefore": 10
+    },
+    {
+      "name": "apple",
+      "unit": "X",
+      "packagingVolume": 100,
+      "bestBefore": 7
+    },
+    {
+      "name": "flour",
+      "unit": "g",
+      "packagingVolume": 100,
+      "bestBefore": 20
+    },
+    {
+      "name": "garlic",
+      "unit": "X",
+      "packagingVolume": 1,
+      "bestBefore": 5
+    },
+    {
+      "name": "onion",
+      "unit": "X",
+      "packagingVolume": 1,
+      "bestBefore": 5
+    },
+    {
+      "name": "oil",
+      "unit": "mL",
+      "packagingVolume": 100,
+      "bestBefore": 20
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "tomato pasta",
+      "duration": 11,
+      "cookType": [
+        "EXEC",
+        "TOURNANT"
+      ],
+      "ingredients": [
+        {
+          "name": "pasta",
+          "amount": 100
+        },
+        {
+          "name": "tomato",
+          "amount": 1
+        },
+        {
+          "name": "garlic",
+          "amount": 1
+        },
+        {
+          "name": "oil",
+          "amount": 100
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 2,
+      "dishName": "beef steak",
+      "duration": 11,
+      "cookType": [
+        "EXEC",
+        "ROAST"
+      ],
+      "ingredients": [
+        {
+          "name": "beef",
+          "amount": 1000
+        },
+        {
+          "name": "garlic",
+          "amount": 1
+        },
+        {
+          "name": "oil",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "dishName": "beef pasta",
+      "duration": 11,
+      "cookType": [
+        "EXEC",
+        "ROAST"
+      ],
+      "ingredients": [
+        {
+          "name": "beef",
+          "amount": 100
+        },
+        {
+          "name": "pasta",
+          "amount": 100
+        },
+        {
+          "name": "tomato",
+          "amount": 1
+        },
+        {
+          "name": "onion",
+          "amount": 1
+        },
+        {
+          "name": "oil",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "dishName": "baked fish",
+      "duration": 11,
+      "cookType": [
+        "EXEC",
+        "FISH"
+      ],
+      "ingredients": [
+        {
+          "name": "fish",
+          "amount": 100
+        },
+        {
+          "name": "tomato",
+          "amount": 1
+        },
+        {
+          "name": "garlic",
+          "amount": 1
+        },
+        {
+          "name": "water",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "dishName": "apple pie",
+      "duration": 11,
+      "cookType": [
+        "EXEC",
+        "PASTRY"
+      ],
+      "ingredients": [
+        {
+          "name": "apple",
+          "amount": 1
+        },
+        {
+          "name": "flour",
+          "amount": 100
+        },
+        {
+          "name": "water",
+          "amount": 100
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    }
+  ]
+}

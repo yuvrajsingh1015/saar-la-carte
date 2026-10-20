@@ -1,0 +1,157 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 3,
+      "visitingStart": 1,
+      "visitingPeriod": 2,
+      "restaurant": 1,
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Chicken Rice"] }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "REGULAR",
+      "size": 4,
+      "tableType": "SEPARATED",
+      "visitingTick": 6,
+      "visitingStart": 2,
+      "visitingPeriod": 3,
+      "restaurant": 2,
+      "foodPreferences": [
+        { "size": 3, "preferredIngredients": ["pasta"] },
+        { "size": 1, "excludedIngredients": ["beef"] }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 3,
+      "tableType": "BAR",
+      "visitingTick": 5,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1, 2],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 2, "preferredIngredients": ["rice"] },
+        { "size": 1, "excludedIngredients": ["chicken"] }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 10,
+      "restaurantTypes": ["AMERICAN"],
+      "visitingEvenings": [1],
+      "deliveryDistance": 5,
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Classic Burger"] }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "EVENT",
+      "size": 8,
+      "tableType": "SEPARATED",
+      "visitingTick": 4,
+      "restaurantTypes": ["EUROPEAN"],
+      "eventEvening": 4,
+      "favoriteDishes": {
+        "EUROPEAN": "Tomato Pasta"
+      },
+      "foodPreferences": [
+        { "size": 8, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "CASUAL",
+      "size": 1,
+      "visitingTick": 8,
+      "restaurantTypes": ["EUROPEAN", "AMERICAN"],
+      "visitingEvenings": [2],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        { "size": 1, "preferredIngredients": ["cheese"] }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "REGULAR",
+      "size": 10,
+      "tableType": "COMMON",
+      "visitingTick": 4,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 2,
+      "foodPreferences": [
+        { "size": 10, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 21,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Rice Bowl"] }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "CASUAL",
+      "size": 5,
+      "tableType": "COMMON",
+      "visitingTick": 7,
+      "restaurantTypes": ["AMERICAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 5, "favoriteDishes": ["Classic Burger"] }
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "type": "STAFF",
+      "evening": 1,
+      "restaurant": 1,
+      "number": 1,
+      "staffType": "COOK",
+      "cookType": "SOUS"
+    },
+    {
+      "id": 2,
+      "type": "UNAVAILABLE",
+      "evening": 2,
+      "ingredient": "tomato",
+      "duration": 1
+    },
+    {
+      "id": 3,
+      "type": "RECIPE",
+      "evening": 3,
+      "ingredient": "chicken",
+      "adaptation": -20
+    },
+    {
+      "id": 4,
+      "type": "STAFF",
+      "evening": 2,
+      "restaurant": 3,
+      "number": -1,
+      "staffType": "WAITSTAFF"
+    }
+  ]
+}

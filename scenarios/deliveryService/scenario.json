@@ -1,0 +1,27 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 6,
+      "visitingEvenings": [1],
+      "restaurantTypes": ["EUROPEAN"],
+      "deliveryDistance": 5,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 6,
+      "visitingEvenings": [1],
+      "restaurantTypes": ["EUROPEAN"],
+      "deliveryDistance": 5,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": []
+    }
+  ],
+  "incidents": []
+}

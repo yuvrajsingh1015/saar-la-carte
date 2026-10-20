@@ -1,0 +1,84 @@
+{
+  "ingredients": [
+    { "name": "rice", "unit": "g", "packagingVolume": 100, "bestBefore": 5 },
+    { "name": "oil", "unit": "mL", "packagingVolume": 50, "bestBefore": 8 },
+    { "name": "beef", "unit": "g", "packagingVolume": 150, "bestBefore": 3 },
+    { "name": "chicken", "unit": "g", "packagingVolume": 200, "bestBefore": 3 },
+    { "name": "pork", "unit": "g", "packagingVolume": 500, "bestBefore": 2 },
+    { "name": "potato", "unit": "X", "packagingVolume": 10, "bestBefore": 5 },
+    { "name": "cheese", "unit": "g", "packagingVolume": 300, "bestBefore": 6 },
+    { "name": "egg", "unit": "X", "packagingVolume": 10, "bestBefore": 4 }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Rice Bowl",
+      "duration": 40,
+      "cookType": ["EXEC"],
+      "ingredients": [{ "name": "rice", "amount": 50 }],
+      "basicDishFor": "AMERICAN"
+    },
+    {
+      "id": 2,
+      "dishName": "Oil Dip",
+      "duration": 2,
+      "cookType": ["EXEC"],
+      "ingredients": [{ "name": "oil", "amount": 10 }],
+      "basicDishFor": "AFRICAN"
+    },
+    {
+      "id": 3,
+      "dishName": "Beef Rice",
+      "duration": 30,
+      "cookType": ["EXEC", "ROAST"],
+      "ingredients": [
+        { "name": "beef", "amount": 100 },
+        { "name": "rice", "amount": 100 }
+      ],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 4,
+      "dishName": "Cheese Egg",
+      "duration": 15,
+      "cookType": ["SOUS", "PASTRY"],
+      "ingredients": [
+        { "name": "cheese", "amount": 100 },
+        { "name": "egg", "amount": 3 }
+      ],
+      "basicDishFor": "EUROPEAN"
+    },
+    {
+      "id": 7,
+      "dishName": "Chicken Rice",
+      "duration": 20,
+      "cookType": ["SOUS", "TOURNANT"],
+      "ingredients": [
+        { "name": "chicken", "amount": 125 },
+        { "name": "rice", "amount": 300 }
+      ]
+    },
+    {
+      "id": 5 ,
+      "dishName": "Potato Soup",
+      "duration": 15,
+      "cookType": ["SOUS", "VEGETABLE"],
+      "ingredients": [
+        { "name": "potato", "amount": 5 },
+        { "name": "oil", "amount": 20 }
+      ]
+    },
+    {
+      "id": 6,
+      "dishName": "Meat Soup",
+      "duration": 20,
+      "cookType": ["SOUS", "TOURNANT", "ROAST"],
+      "ingredients": [
+        { "name": "chicken", "amount": 100 },
+        { "name": "oil", "amount": 20 },
+        { "name": "beef", "amount": 100 },
+        { "name": "pork", "amount": 100 }
+      ]
+    }
+  ]
+}

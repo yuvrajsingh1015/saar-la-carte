@@ -1,0 +1,630 @@
+{
+  "customerGroups": [
+    {
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 8,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "rapeseed"
+          ]
+        },
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Teff Congee",
+            "Chard Gratin"
+          ]
+        }
+      ],
+      "id": 1
+    },
+    {
+      "type": "REGULAR",
+      "size": 3,
+      "tableType": "COMMON",
+      "visitingTick": 15,
+      "visitingStart": 2,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [],
+      "id": 2
+    },
+    {
+      "type": "REGULAR",
+      "size": 4,
+      "tableType": "COMMON",
+      "visitingTick": 8,
+      "visitingStart": 2,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Teff Congee"
+          ]
+        },
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Juniper Bisque"
+          ]
+        }
+      ],
+      "id": 3
+    },
+    {
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "BAR",
+      "visitingTick": 16,
+      "visitingStart": 1,
+      "visitingPeriod": 2,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 2,
+          "excludedIngredients": [
+            "teff"
+          ]
+        }
+      ],
+      "id": 4
+    },
+    {
+      "type": "REGULAR",
+      "size": 3,
+      "tableType": "COMMON",
+      "visitingTick": 3,
+      "visitingStart": 2,
+      "visitingPeriod": 2,
+      "restaurant": 2,
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "clove",
+            "chard"
+          ]
+        }
+      ],
+      "id": 5
+    },
+    {
+      "type": "REGULAR",
+      "size": 3,
+      "tableType": "COMMON",
+      "visitingTick": 11,
+      "visitingStart": 2,
+      "visitingPeriod": 2,
+      "restaurant": 2,
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Chard Gratin"
+          ]
+        }
+      ],
+      "id": 6
+    },
+    {
+      "type": "REGULAR",
+      "size": 3,
+      "tableType": "COMMON",
+      "visitingTick": 13,
+      "visitingStart": 2,
+      "visitingPeriod": 2,
+      "restaurant": 1,
+      "foodPreferences": [
+        {
+          "size": 3,
+          "excludedIngredients": [
+            "einkorn"
+          ]
+        }
+      ],
+      "id": 7
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "BAR",
+      "visitingTick": 7,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        4,
+        5
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Mace Dumplings",
+            "Juniper Bisque"
+          ]
+        }
+      ],
+      "id": 8
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "COMMON",
+      "visitingTick": 9,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        3,
+        4,
+        5
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "teff"
+          ]
+        },
+        {
+          "size": 3,
+          "favoriteDishes": [
+            "Clove Hotpot",
+            "Juniper Bisque"
+          ]
+        }
+      ],
+      "id": 9
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "tableType": "COMMON",
+      "visitingTick": 18,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "id": 10
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "BAR",
+      "visitingTick": 12,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        3,
+        4,
+        5
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [],
+      "id": 11
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "SEPARATED",
+      "visitingTick": 6,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        2,
+        4,
+        5
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [],
+      "id": 12
+    },
+    {
+      "type": "CASUAL",
+      "size": 5,
+      "tableType": "SEPARATED",
+      "visitingTick": 18,
+      "restaurantTypes": [
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        2,
+        5
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Juniper Bisque",
+            "Chard Gratin"
+          ]
+        },
+        {
+          "size": 4,
+          "preferredIngredients": [
+            "clove",
+            "amaranth"
+          ]
+        }
+      ],
+      "id": 13
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 15,
+      "restaurantTypes": [
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        2
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [],
+      "id": 14
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "tableType": "SEPARATED",
+      "visitingTick": 18,
+      "restaurantTypes": [
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        1,
+        3,
+        5
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 5,
+          "favoriteDishes": [
+            "Chard Gratin"
+          ]
+        }
+      ],
+      "id": 15
+    },
+    {
+      "type": "CASUAL",
+      "size": 3,
+      "tableType": "SEPARATED",
+      "visitingTick": 6,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        1,
+        5
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "id": 16
+    },
+    {
+      "type": "CASUAL",
+      "size": 5,
+      "tableType": "COMMON",
+      "visitingTick": 7,
+      "restaurantTypes": [
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [],
+      "id": 17
+    },
+    {
+      "type": "CASUAL",
+      "size": 5,
+      "tableType": "COMMON",
+      "visitingTick": 8,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        2
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "id": 18
+    },
+    {
+      "type": "CASUAL",
+      "size": 6,
+      "tableType": "COMMON",
+      "visitingTick": 9,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1,
+        3
+      ],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Clove Hotpot",
+            "Einkorn Compote"
+          ]
+        }
+      ],
+      "id": 19
+    },
+    {
+      "type": "CASUAL",
+      "size": 1,
+      "tableType": "COMMON",
+      "visitingTick": 5,
+      "restaurantTypes": [
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        2,
+        3,
+        4
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "chard",
+            "rapeseed"
+          ]
+        }
+      ],
+      "id": 20
+    },
+    {
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 9,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        1,
+        2
+      ],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "juniper",
+            "einkorn"
+          ]
+        },
+        {
+          "size": 1,
+          "excludedIngredients": [
+            "medlar"
+          ]
+        }
+      ],
+      "id": 21
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "COMMON",
+      "visitingTick": 19,
+      "restaurantTypes": [
+        "ASIAN"
+      ],
+      "visitingEvenings": [
+        2,
+        3,
+        4
+      ],
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 4,
+          "preferredIngredients": [
+            "rapeseed",
+            "clove"
+          ]
+        }
+      ],
+      "id": 22
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 17,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        4
+      ],
+      "deliveryDistance": 15,
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "juniper"
+          ]
+        }
+      ],
+      "id": 23
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 19,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        3,
+        4
+      ],
+      "deliveryDistance": 10,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        {
+          "size": 1,
+          "favoriteDishes": [
+            "Clove Hotpot"
+          ]
+        },
+        {
+          "size": 2,
+          "favoriteDishes": [
+            "Clove Hotpot",
+            "Juniper Bisque"
+          ]
+        },
+        {
+          "size": 1,
+          "preferredIngredients": [
+            "mace"
+          ]
+        }
+      ],
+      "id": 24
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 16,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        1,
+        4
+      ],
+      "deliveryDistance": 10,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [],
+      "id": 25
+    },
+    {
+      "type": "CASUAL",
+      "size": 4,
+      "visitingTick": 11,
+      "restaurantTypes": [
+        "ASIAN",
+        "EUROPEAN"
+      ],
+      "visitingEvenings": [
+        2,
+        5
+      ],
+      "deliveryDistance": 10,
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [],
+      "id": 26
+    },
+    {
+      "type": "EVENT",
+      "size": 13,
+      "tableType": "SEPARATED",
+      "visitingTick": 6,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "eventEvening": 5,
+      "favoriteDishes": {
+        "EUROPEAN": "Medlar Porridge"
+      },
+      "foodPreferences": [
+        {
+          "size": 9,
+          "excludedIngredients": [
+            "teff"
+          ]
+        }
+      ],
+      "id": 27
+    },
+    {
+      "type": "EVENT",
+      "size": 11,
+      "tableType": "SEPARATED",
+      "visitingTick": 7,
+      "restaurantTypes": [
+        "EUROPEAN"
+      ],
+      "eventEvening": 6,
+      "favoriteDishes": {
+        "EUROPEAN": "Medlar Porridge"
+      },
+      "foodPreferences": [
+        {
+          "size": 3,
+          "preferredIngredients": [
+            "einkorn"
+          ]
+        },
+        {
+          "size": 2,
+          "excludedIngredients": [
+            "mace"
+          ]
+        }
+      ],
+      "id": 28
+    }
+  ],
+  "incidents": [
+    {
+      "type": "RECIPE",
+      "evening": 3,
+      "ingredient": "amaranth",
+      "adaptation": -27,
+      "id": 1
+    },
+    {
+      "type": "PACKAGING",
+      "evening": 2,
+      "ingredient": "teff",
+      "packagingVolume": 70,
+      "id": 2
+    },
+    {
+      "type": "RECIPE",
+      "evening": 4,
+      "ingredient": "rapeseed",
+      "adaptation": 35,
+      "id": 3
+    }
+  ]
+}

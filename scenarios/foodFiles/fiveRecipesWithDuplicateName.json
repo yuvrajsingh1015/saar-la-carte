@@ -1,0 +1,114 @@
+{
+  "ingredients": [
+    {
+      "name": "chicken",
+      "unit": "g",
+      "packagingVolume": 200,
+      "bestBefore": 3
+    },
+    {
+      "name": "rice",
+      "unit": "g",
+      "packagingVolume": 20,
+      "bestBefore": 5
+    },
+    {
+      "name": "fish",
+      "unit": "X",
+      "packagingVolume": 3,
+      "bestBefore": 1
+    },
+    {
+      "name": "tomato",
+      "unit": "X",
+      "packagingVolume": 5,
+      "bestBefore": 7
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "dishName": "Rice Bowl",
+      "duration": 2,
+      "cookType": ["EXEC", "SOUS"],
+      "ingredients": [
+        {
+          "name": "rice",
+          "amount": 100
+        }
+      ],
+      "basicDishFor": "ASIAN"
+    },
+    {
+      "id": 2,
+      "dishName": "Rice Bowl",
+      "duration": 20,
+      "cookType": ["EXEC", "SOUS", "FISH"],
+      "ingredients": [
+        {
+          "name": "rice",
+          "amount": 100
+        },
+        {
+          "name": "fish",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "dishName": "Tomato Queen",
+      "duration": 11,
+      "cookType": ["SOUS", "VEGETABLE"],
+      "ingredients": [
+        {
+          "name": "tomato",
+          "amount": 5
+        }
+      ],
+      "basicDishFor": "AFRICAN"
+    },
+    {
+      "id": 4,
+      "dishName": "Chicken Rice",
+      "duration": 30,
+      "cookType": ["SOUS", "ROAST"],
+      "ingredients": [
+        {
+          "name": "chicken",
+          "amount": 100
+        },
+        {
+          "name": "rice",
+          "amount": 120
+        }
+      ],
+      "basicDishFor": "AMERICAN"
+    },
+    {
+      "id": 5,
+      "dishName": "Happy Mix",
+      "duration": 30,
+      "cookType": ["EXEC", "SOUS", "ROAST"],
+      "ingredients": [
+        {
+          "name": "chicken",
+          "amount": 50
+        },
+        {
+          "name": "rice",
+          "amount": 75
+        },
+        {
+          "name": "fish",
+          "amount": 1
+        },
+        {
+          "name": "tomato",
+          "amount": 2
+        }
+      ],
+      "basicDishFor": "EUROPEAN"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 3,
+      "visitingStart": 1,
+      "visitingPeriod": 2,
+      "restaurant": 1,
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 4,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 10,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "deliveryDistance": 5,
+      "ratingLikelihood": "SOME",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Tomato Plate"] }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "EVENT",
+      "size": 4,
+      "tableType": "SEPARATED",
+      "visitingTick": 2,
+      "restaurantTypes": ["EUROPEAN"],
+      "eventEvening": 4,
+      "favoriteDishes": {
+        "EUROPEAN": "Tomato Pasta"
+      },
+      "foodPreferences": [
+        { "size": 4, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "CASUAL",
+      "size": 3,
+      "tableType": "BAR",
+      "visitingTick": 5,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "NEVER",
+      "foodPreferences": [
+        { "size": 3, "preferredIngredients": ["pasta"] }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "CASUAL",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 21,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "REGULAR",
+      "size": 10,
+      "tableType": "COMMON",
+      "visitingTick": 4,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": [
+        { "size": 10, "favoriteDishes": ["Tomato Pasta"] }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 8,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [2],
+      "deliveryDistance": 20,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Tomato Plate"] }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "CASUAL",
+      "size": 2,
+      "visitingTick": 8,
+      "restaurantTypes": ["EUROPEAN"],
+      "visitingEvenings": [3],
+      "deliveryDistance": 5,
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 2, "favoriteDishes": ["Tomato Plate"] }
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "type": "STAFF",
+      "evening": 2,
+      "restaurant": 1,
+      "number": 1,
+      "staffType": "WAITSTAFF"
+    },
+    {
+      "id": 2,
+      "type": "RECIPE",
+      "evening": 3,
+      "ingredient": "tomato",
+      "adaptation": -20
+    },
+    {
+      "id": 3,
+      "type": "STAFF",
+      "evening": 3,
+      "restaurant": 1,
+      "number": -3,
+      "staffType": "WAITSTAFF"
+    }
+  ]
+}

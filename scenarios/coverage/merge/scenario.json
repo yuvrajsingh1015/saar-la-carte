@@ -1,0 +1,18 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "CASUAL",
+      "size": 4,
+      "tableType": "COMMON",
+      "visitingTick": 1,
+      "restaurantTypes": ["ASIAN"],
+      "visitingEvenings": [1],
+      "ratingLikelihood": "ALWAYS",
+      "foodPreferences": [
+        { "size": 4, "favoriteDishes": ["Rice Bowl"] }
+      ]
+    }
+  ],
+  "incidents": []
+}

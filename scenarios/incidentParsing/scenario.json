@@ -1,0 +1,47 @@
+{
+  "customerGroups": [
+    {
+      "id": 1,
+      "type": "REGULAR",
+      "size": 2,
+      "tableType": "COMMON",
+      "visitingTick": 1,
+      "visitingStart": 1,
+      "visitingPeriod": 1,
+      "restaurant": 1,
+      "foodPreferences": []
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "type": "STAFF",
+      "evening": 1,
+      "restaurant": 1,
+      "number": 1,
+      "staffType": "COOK",
+      "cookType": "SOUS"
+    },
+    {
+      "id": 2,
+      "type": "RECIPE",
+      "evening": 1,
+      "ingredient": "onion",
+      "adaptation": 10
+    },
+    {
+      "id": 3,
+      "type": "PACKAGING",
+      "evening": 1,
+      "ingredient": "potato",
+      "packagingVolume": 2000
+    },
+    {
+      "id": 4,
+      "type": "UNAVAILABLE",
+      "evening": 2,
+      "ingredient": "garlic",
+      "duration": 2
+    }
+  ]
+}

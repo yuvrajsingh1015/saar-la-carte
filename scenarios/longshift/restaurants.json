@@ -1,0 +1,138 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Marrow & Ash",
+      "type": "EUROPEAN",
+      "openingTickStart": 1,
+      "openingTickEnd": 23,
+      "deliveryDrivers": 0,
+      "event": true,
+      "positiveRatings": 7,
+      "negativeRatings": 3,
+      "recipes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "kitchenStaff": {
+        "EXEC": 0,
+        "SOUS": 1,
+        "TOURNANT": 2,
+        "SAUCE": 1,
+        "FISH": 0,
+        "ROAST": 1,
+        "VEGETABLE": 1,
+        "PASTRY": 1
+      },
+      "waitstaff": 4,
+      "tables": [
+        {
+          "id": 1,
+          "type": "COMMON",
+          "size": 2
+        },
+        {
+          "id": 2,
+          "type": "COMMON",
+          "size": 3
+        },
+        {
+          "id": 3,
+          "type": "COMMON",
+          "size": 4
+        },
+        {
+          "id": 4,
+          "type": "COMMON",
+          "size": 4
+        },
+        {
+          "id": 5,
+          "type": "COMMON",
+          "size": 6
+        },
+        {
+          "id": 6,
+          "type": "BAR",
+          "size": 2
+        },
+        {
+          "id": 7,
+          "type": "BAR",
+          "size": 3
+        },
+        {
+          "id": 8,
+          "type": "SEPARATED",
+          "size": 8
+        },
+        {
+          "id": 9,
+          "type": "SEPARATED",
+          "size": 14
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ninth Lantern",
+      "type": "ASIAN",
+      "openingTickStart": 2,
+      "openingTickEnd": 21,
+      "deliveryDrivers": 2,
+      "event": false,
+      "positiveRatings": 4,
+      "negativeRatings": 6,
+      "recipes": [
+        5,
+        6,
+        7
+      ],
+      "kitchenStaff": {
+        "EXEC": 1,
+        "SOUS": 0,
+        "TOURNANT": 1,
+        "SAUCE": 2,
+        "FISH": 1,
+        "ROAST": 0,
+        "VEGETABLE": 0,
+        "PASTRY": 0
+      },
+      "waitstaff": 3,
+      "tables": [
+        {
+          "id": 1,
+          "type": "COMMON",
+          "size": 2
+        },
+        {
+          "id": 2,
+          "type": "COMMON",
+          "size": 2
+        },
+        {
+          "id": 3,
+          "type": "COMMON",
+          "size": 5
+        },
+        {
+          "id": 4,
+          "type": "COMMON",
+          "size": 7
+        },
+        {
+          "id": 5,
+          "type": "BAR",
+          "size": 4
+        },
+        {
+          "id": 6,
+          "type": "SEPARATED",
+          "size": 6
+        }
+      ]
+    }
+  ]
+}
